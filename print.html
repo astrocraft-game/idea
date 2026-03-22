@@ -36,10 +36,10 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-4f71a439.js";
+            window.path_to_searchindex_js = "searchindex-71290392.js";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-a3ba4081.js"></script>
+        <script src="toc-dfbe2afe.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -192,6 +192,7 @@
 <li>orbital industry appears when planetary industry stops being enough</li>
 <li>interplanetary routing appears when the player must reach resources and positions that cannot be supplied from one world</li>
 <li>gates and time manipulation appear only after precursor and Flux-related breakthroughs</li>
+<li>elemental descent appears only after raw Flux can be captured, contained, and translated into an inward stabilization program</li>
 <li>cloning remains late because the fiction should treat it as dangerous, not routine</li>
 </ul>
 <h3 id="2-embodiment-matters"><a class="header" href="#2-embodiment-matters">2. Embodiment matters</a></h3>
@@ -199,7 +200,7 @@
 <h3 id="3-automation-is-identity-not-convenience"><a class="header" href="#3-automation-is-identity-not-convenience">3. Automation is identity, not convenience</a></h3>
 <p>The game should not spend too long pretending to be a manual survival game. The real fantasy is the growth of intelligent industry under existential pressure. Manual work exists to establish scale and vulnerability, but automation must become exciting early.</p>
 <h3 id="4-scale-should-expand-not-fracture"><a class="header" href="#4-scale-should-expand-not-fracture">4. Scale should expand, not fracture</a></h3>
-<p>The game is intentionally broad, but it should never feel like disconnected minigames. Planetary logistics, station management, and frontier expansion should all share the same mental model:</p>
+<p>The game is intentionally broad, but it should never feel like disconnected minigames. Planetary logistics, station management, frontier expansion, and elemental stabilization should all share the same mental model:</p>
 <ul>
 <li>production nodes</li>
 <li>transport links</li>
@@ -218,31 +219,34 @@
 <li>the possibility of rogue minds, unstable gates, and dangerous scaling choices</li>
 </ul>
 <h2 id="high-level-game-shape"><a class="header" href="#high-level-game-shape">High-level game shape</a></h2>
-<p>The campaign grows through three major working scopes:</p>
+<p>The campaign grows through four major working scopes:</p>
 <ol>
 <li>Planetary industry</li>
 <li>Orbital and station industry</li>
 <li>Interplanetary and later interstellar expansion</li>
+<li>Elemental stabilization inside matter</li>
 </ol>
-<p>Each scope has two operating layers. That six-layer structure becomes the primary backbone of the design and of the user experience.</p>
+<p>Each scope has two operating layers. That eight-layer structure becomes the primary backbone of the design and of the user experience.</p>
 <h2 id="why-the-scope-model-matters"><a class="header" href="#why-the-scope-model-matters">Why the scope model matters</a></h2>
 <p>The scope model solves a structural problem common in large simulation games: expansion often introduces new maps and screens that behave like separate products. Here, each larger scope should feel like a strategic extension of the previous one.</p>
 <p>At the planetary level, the player learns local production and then macro distribution.</p>
 <p>At the station level, the player learns external infrastructure and internal industrial orchestration.</p>
 <p>At the frontier level, the player learns route creation and then exploitation of distant opportunities.</p>
+<p>At the elemental level, the player learns local lattice repair and then field-scale propagation of stabilization through matter itself.</p>
 <p>That is the intended rhythm of the whole game:</p>
 <ul>
 <li>build competence locally</li>
 <li>push outward</li>
 <li>create a new layer of logistics</li>
 <li>then industrialize that new layer</li>
+<li>finally turn inward and apply the same logic at the scale of matter</li>
 </ul>
 <p>The rest of this book elaborates that structure in detail.</p>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="premise-and-story"><a class="header" href="#premise-and-story">Premise And Story</a></h1>
 <h2 id="executive-summary"><a class="header" href="#executive-summary">Executive summary</a></h2>
 <p>This design synthesizes narrative science fiction and automation-game structure into one coherent arc: the player is an <strong>ascended human mind</strong> instantiated in a <strong>Mind Disk</strong>, forced to rebuild physical industry to resist a cosmic destabilization called <strong>Dark Flux</strong>.</p>
-<p>The design principle is chronological causality. Mechanics arrive when the story makes them inevitable. Saving exists because the mind can be synchronized into a physical backup disk. Remote control arrives when electronics and field computation exist. Interplanetary scale arrives when launch, orbit, and elevators become the only rational way to reach scarce materials. Portals and time dilation arrive only after the player discovers Flux crystals and precursor chronotech. Cloning is deliberately late and rare because it introduces governance hazards and risks of rogue copies.</p>
+<p>The design principle is chronological causality. Mechanics arrive when the story makes them inevitable. Saving exists because the mind can be synchronized into a physical backup disk. Remote control arrives when electronics and field computation exist. Interplanetary scale arrives when launch, orbit, and elevators become the only rational way to reach scarce materials. Portals and time dilation arrive only after the player discovers Flux crystals and precursor chronotech. Cloning is deliberately late and rare because it introduces governance hazards and risks of rogue copies. The final twist is that even galaxy-scale infrastructure proves incomplete: the player eventually learns that Dark Flux must also be repaired from below, inside matter itself, through an elemental stabilization program.</p>
 <p>Numeric balance is intentionally unspecified. This document defines relationships, unlock gates, pacing logic, and risk tradeoffs rather than pretending that exact tuning is already known.</p>
 <h2 id="polished-story"><a class="header" href="#polished-story">Polished story</a></h2>
 <p>In the last era of flesh, nobody won the argument.</p>
@@ -284,9 +288,12 @@
 <li>gates and time manipulation reshape strategic distance</li>
 <li>cloning and fragments threaten governance itself</li>
 <li>Dyson swarms and Flux stabilizers turn industry into a galactic defense project</li>
+<li>raw Flux capture turns the player back toward Earth and toward the smallest scale of all</li>
+<li>elemental descent reveals that cosmic repair requires atomic construction as well as megastructures</li>
 </ul>
 <p>The core dramatic turn is simple:</p>
 <p>Factories are no longer just productive systems. They become the material expression of civilization’s refusal to disappear.</p>
+<p>The final dramatic inversion is that after building ever larger systems, the player discovers that the decisive battlefield is also the smallest one.</p>
 <h2 id="narrative-promise"><a class="header" href="#narrative-promise">Narrative promise</a></h2>
 <p>The emotional arc should move through these tones:</p>
 <ul>
@@ -302,8 +309,8 @@
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="scope-framework"><a class="header" href="#scope-framework">Scope Framework</a></h1>
 <p>This chapter defines the main structural lens of the game.</p>
-<p>The design is organized around <strong>three major scopes</strong>, and each scope contains <strong>two layers</strong>. Those six layers are not arbitrary zoom levels. Each one changes what the player is responsible for, what information must be visible, and what kinds of logistical failure become common.</p>
-<h2 id="the-three-scopes"><a class="header" href="#the-three-scopes">The three scopes</a></h2>
+<p>The design is organized around <strong>four major scopes</strong>, and each scope contains <strong>two layers</strong>. Those eight layers are not arbitrary zoom levels. Each one changes what the player is responsible for, what information must be visible, and what kinds of logistical failure become common.</p>
+<h2 id="the-four-scopes"><a class="header" href="#the-four-scopes">The four scopes</a></h2>
 <div class="table-wrapper">
 <table>
 <thead>
@@ -313,6 +320,7 @@
 <tr><td>Planetary</td><td>Region factory layer</td><td>Inter-region / continental layer</td><td>Turn local industry into a planetary network</td></tr>
 <tr><td>Space station</td><td>Exterior orbital layer</td><td>Interior station layer</td><td>Turn orbit into a productive industrial body</td></tr>
 <tr><td>Interplanetary frontier</td><td>Route and gate layer</td><td>Frontier extraction and colonization layer</td><td>Turn distance into infrastructure</td></tr>
+<tr><td>Elemental stabilization</td><td>Lattice layer</td><td>Flux field layer</td><td>Turn matter itself into a repairable industrial system</td></tr>
 </tbody>
 </table>
 </div>
@@ -326,6 +334,8 @@
 <li>the station interior layer is about turning the station into a functioning factory</li>
 <li>the route layer is about deciding where movement and expansion should happen</li>
 <li>the frontier layer is about exploiting distant opportunities and creating the next foothold</li>
+<li>the lattice layer is about direct atomic repair and local stabilizer construction</li>
+<li>the flux field layer is about propagating order through unstable matter</li>
 </ul>
 <p>That means each scope has an inner operational layer and an outer organizational layer, but the exact character of those layers changes with the fiction.</p>
 <h2 id="scope-1-planetary"><a class="header" href="#scope-1-planetary">Scope 1: Planetary</a></h2>
@@ -429,9 +439,17 @@
 <li>Enter the station interior and build new local industry there.</li>
 </ol>
 <p>The same pattern then repeats into frontier play.</p>
+<p>One final inversion then occurs:</p>
+<ol>
+<li>Build civilization-scale stabilizer networks.</li>
+<li>Discover that macro stabilization is not enough.</li>
+<li>Capture raw Flux and return it to a planetary research core.</li>
+<li>Build the shrinking and containment apparatus.</li>
+<li>Re-enter the game at elemental scale and repair reality from within.</li>
+</ol>
 <h2 id="design-constraint"><a class="header" href="#design-constraint">Design constraint</a></h2>
 <p>No scope should invalidate the previous one.</p>
-<p>The player should never feel that planetary play was merely early-game filler once stations exist, or that stations become irrelevant once gates exist. Older layers should remain active contributors inside the larger strategic machine.</p>
+<p>The player should never feel that planetary play was merely early-game filler once stations exist, or that stations become irrelevant once gates exist, or that macro play becomes irrelevant once elemental descent begins. Older layers should remain active contributors inside the larger strategic machine.</p>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="planetary-scope"><a class="header" href="#planetary-scope">Planetary Scope</a></h1>
 <p>The planetary scope is the foundation of the whole game. It is where the player first learns that this project is not only about placing machines, but about turning fragmented industry into a coordinated world-scale system.</p>
@@ -949,6 +967,161 @@
 </ul>
 <p>The player should never feel fully safe here, only increasingly capable.</p>
 <div style="break-before: page; page-break-before: always;"></div>
+<h1 id="elemental-scope"><a class="header" href="#elemental-scope">Elemental Scope</a></h1>
+<p>The elemental scope is the final inversion of the game’s structure.</p>
+<p>For most of the campaign, expansion means going outward:</p>
+<ul>
+<li>from one machine to a factory</li>
+<li>from a factory to a region</li>
+<li>from a region to a planet</li>
+<li>from a planet to orbit</li>
+<li>from orbit to routes, asteroids, and distant systems</li>
+</ul>
+<p>Then the game turns.</p>
+<p>The player discovers that Dark Flux cannot be fully stabilized only from astronomical distance. Flux can be harvested, contained, and routed at macro scale, but true repair requires direct intervention at the level where matter itself is becoming unreliable. The answer is not to go farther out. The answer is to go impossibly far inward.</p>
+<p>This scope begins when the player captures raw Flux, returns it to Earth, and builds a shrinking apparatus capable of inserting their embodied mind into an <strong>elemental operating environment</strong>. There, stabilizers are no longer planetary megaprojects alone. They become microscopic or atomic precision structures that restore order from the bottom up.</p>
+<h2 id="core-fantasy-3"><a class="header" href="#core-fantasy-3">Core fantasy</a></h2>
+<p>The fantasy of the elemental scope is:</p>
+<ul>
+<li>descend into the fabric of matter</li>
+<li>treat atoms and fields as industrial terrain</li>
+<li>repair reality through construction at the smallest meaningful scale</li>
+<li>prove that the final answer to cosmic collapse is not only bigger infrastructure, but deeper precision</li>
+</ul>
+<h2 id="why-this-scope-belongs-in-the-game"><a class="header" href="#why-this-scope-belongs-in-the-game">Why this scope belongs in the game</a></h2>
+<p>This twist works because it mirrors the whole campaign.</p>
+<p>The game has already taught the player that:</p>
+<ul>
+<li>order can be built</li>
+<li>logistics can be scaled</li>
+<li>instability can be contained</li>
+<li>structure matters at every level</li>
+</ul>
+<p>The elemental scope takes those lessons and reframes them:</p>
+<ul>
+<li>belts become channels</li>
+<li>regions become lattices</li>
+<li>route planning becomes field propagation</li>
+<li>megaproject stabilization becomes atomic repair</li>
+</ul>
+<p>This is not a new game. It is the same game translated into a radically different physical scale.</p>
+<h2 id="two-layers"><a class="header" href="#two-layers">Two layers</a></h2>
+<p>The elemental scope has two layers:</p>
+<ul>
+<li>the <strong>lattice layer</strong>, where the player builds local stabilizer structures and manipulates matter arrangement directly</li>
+<li>the <strong>flux field layer</strong>, where the player manages energetic propagation, resonance, and how stabilization spreads through larger structures</li>
+</ul>
+<p>Together, these layers let the player solve both local atomic construction and larger-scale elemental dynamics.</p>
+<h2 id="endgame-function"><a class="header" href="#endgame-function">Endgame function</a></h2>
+<p>The elemental scope should not replace the other scopes. It should consume them.</p>
+<p>Planetary industry, orbital production, frontier extraction, and route planning all remain necessary because the player still needs:</p>
+<ul>
+<li>raw Flux capture</li>
+<li>transport and containment</li>
+<li>power and specialized components</li>
+<li>large-scale stabilizer deployment</li>
+</ul>
+<p>The elemental scope becomes the missing inner half of the endgame. Macro stabilization holds the line; elemental stabilization makes lasting repair possible.</p>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="lattice-layer"><a class="header" href="#lattice-layer">Lattice Layer</a></h1>
+<p>The lattice layer is the local operational layer of the elemental scope.</p>
+<h2 id="primary-purpose-6"><a class="header" href="#primary-purpose-6">Primary purpose</a></h2>
+<p>This layer is where the player enters matter as buildable terrain.</p>
+<p>The player is no longer laying out smelters or shuttle bays. They are arranging:</p>
+<ul>
+<li>atomic anchor points</li>
+<li>stabilizer nodes</li>
+<li>resonance channels</li>
+<li>containment meshes</li>
+<li>repair scaffolds</li>
+</ul>
+<p>The important feeling is that matter itself has become the factory floor.</p>
+<h2 id="desired-feel-6"><a class="header" href="#desired-feel-6">Desired feel</a></h2>
+<p>This layer should feel:</p>
+<ul>
+<li>precise</li>
+<li>fragile</li>
+<li>strange</li>
+<li>intensely consequential</li>
+</ul>
+<p>At planetary or orbital scale, a design flaw can waste throughput. At elemental scale, a design flaw can destabilize a whole repair sequence.</p>
+<h2 id="core-loops"><a class="header" href="#core-loops">Core loops</a></h2>
+<h3 id="atomic-construction-loop"><a class="header" href="#atomic-construction-loop">Atomic construction loop</a></h3>
+<ol>
+<li>enter a destabilized material region</li>
+<li>scan for fracture patterns or Flux contamination</li>
+<li>place anchor structures</li>
+<li>bridge them into a stabilizing local pattern</li>
+<li>verify that the pattern holds under field stress</li>
+</ol>
+<h3 id="repair-loop"><a class="header" href="#repair-loop">Repair loop</a></h3>
+<ol>
+<li>identify where matter rules are slipping</li>
+<li>isolate the damaged lattice</li>
+<li>rebuild a trustworthy structural pattern</li>
+<li>connect it to larger stabilizer systems</li>
+</ol>
+<h2 id="design-constraints"><a class="header" href="#design-constraints">Design constraints</a></h2>
+<h3 id="local-readability-still-matters"><a class="header" href="#local-readability-still-matters">Local readability still matters</a></h3>
+<p>Even though this layer is abstracted and unusual, it still needs the same clarity principles as factory play:</p>
+<ul>
+<li>visible flow</li>
+<li>visible stress</li>
+<li>visible bottlenecks</li>
+<li>visible failure propagation</li>
+</ul>
+<h3 id="the-player-must-still-feel-like-a-builder"><a class="header" href="#the-player-must-still-feel-like-a-builder">The player must still feel like a builder</a></h3>
+<p>This layer should not become a puzzle game detached from the rest of the campaign. The player still places, routes, reinforces, and scales.</p>
+<h2 id="relationship-to-macro-play"><a class="header" href="#relationship-to-macro-play">Relationship to macro play</a></h2>
+<p>The lattice layer should matter because it determines whether macro stabilizer projects truly work.</p>
+<p>Large-scale infrastructure may hold Flux back temporarily, but only well-constructed lattice repairs create durable recovery.</p>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="flux-field-layer"><a class="header" href="#flux-field-layer">Flux Field Layer</a></h1>
+<p>The flux field layer is the macro layer of elemental play.</p>
+<h2 id="primary-purpose-7"><a class="header" href="#primary-purpose-7">Primary purpose</a></h2>
+<p>If the lattice layer is about local atomic construction, the flux field layer is about how stabilization spreads, resonates, amplifies, or fails across broader energetic space.</p>
+<p>This layer handles:</p>
+<ul>
+<li>field propagation</li>
+<li>resonance tuning</li>
+<li>stabilization coverage</li>
+<li>interference management</li>
+<li>coupling between local repairs and larger structures</li>
+</ul>
+<h2 id="desired-feel-7"><a class="header" href="#desired-feel-7">Desired feel</a></h2>
+<p>This layer should feel:</p>
+<ul>
+<li>dynamic</li>
+<li>systemic</li>
+<li>invisible made legible</li>
+</ul>
+<p>The player should feel that they are operating on patterns and forces rather than on solid machinery, but the decisions should still be industrial in spirit.</p>
+<h2 id="key-questions-1"><a class="header" href="#key-questions-1">Key questions</a></h2>
+<ul>
+<li>where should stabilization pressure be concentrated</li>
+<li>which repaired lattice zones should be linked first</li>
+<li>what field harmonics cause reinforcement versus collapse</li>
+<li>how much raw Flux can be processed safely through one network</li>
+</ul>
+<h2 id="main-gameplay-loops-1"><a class="header" href="#main-gameplay-loops-1">Main gameplay loops</a></h2>
+<h3 id="propagation-loop"><a class="header" href="#propagation-loop">Propagation loop</a></h3>
+<ol>
+<li>establish local lattice stability</li>
+<li>route field energy through the repaired region</li>
+<li>measure where resonance strengthens or destabilizes neighboring zones</li>
+<li>adjust topology and tuning until repair spreads reliably</li>
+</ol>
+<h3 id="harmonic-management-loop"><a class="header" href="#harmonic-management-loop">Harmonic management loop</a></h3>
+<ol>
+<li>capture and feed raw Flux into the device chain</li>
+<li>translate it into usable stabilization potential</li>
+<li>prevent overload, inversion, or runaway instability</li>
+<li>maintain a field configuration long enough for repairs to become self-supporting</li>
+</ol>
+<h2 id="why-this-layer-matters"><a class="header" href="#why-this-layer-matters">Why this layer matters</a></h2>
+<p>Without the flux field layer, the elemental scope would remain too local and puzzle-like. This layer gives the fourth scope its own strategic dimension, just as the inter-region, station exterior, and route layers give strategic shape to the earlier scopes.</p>
+<p>It is the field layer that turns atomic repair into a campaign-scale answer.</p>
+<div style="break-before: page; page-break-before: always;"></div>
 <h1 id="campaign-progression"><a class="header" href="#campaign-progression">Campaign Progression</a></h1>
 <p>This progression keeps cloning and mind replication late and rare while making embodiment and industrial growth central from the first hour.</p>
 <p>The campaign repeatedly alternates between intimate operation and expanded oversight. The player masters one layer, then earns the next layer that coordinates it.</p>
@@ -974,7 +1147,10 @@
 <tr><td>Flux crystals and deep-belt mining</td><td>Frontier / frontier</td><td>The universe has seams</td><td>Prospecting and containment tech</td><td>risky mining vs safe scaling</td><td>rare catastrophic incidents</td></tr>
 <tr><td>Portals and time dilation</td><td>Frontier / route</td><td>Distance collapses; clocks bend</td><td>Flux stabilization and precursor chronotech</td><td>gate topology; acceleration zones</td><td>instability and maintenance burden</td></tr>
 <tr><td>Fragments and cloning</td><td>Frontier / route and governance</td><td>Governance of selves</td><td>Mind Replication Chamber and strict prereqs</td><td>whether to fork at all; permissions</td><td>rogue clone emergence</td></tr>
-<tr><td>Dyson swarms and stabilizers</td><td>Strategic endgame across all scopes</td><td>Star-scale power; hold the line</td><td>megaproject chains</td><td>which stars and systems to prioritize</td><td>losing regions and routes to Flux pressure</td></tr>
+<tr><td>Dyson swarms and stabilizers</td><td>Strategic endgame across macro scopes</td><td>Star-scale power; hold the line</td><td>megaproject chains</td><td>which stars and systems to prioritize</td><td>losing regions and routes to Flux pressure</td></tr>
+<tr><td>Raw Flux capture and return to Earth</td><td>Frontier to elemental transition</td><td>The enemy can be carried home as a cure or a catastrophe</td><td>Safe capture, containment, and transport chain</td><td>where to harvest; how much to risk transporting; what returns to Earth</td><td>containment failure; strategic overreach</td></tr>
+<tr><td>Shrinking device and first elemental descent</td><td>Elemental / lattice</td><td>Go inward to repair what scale alone cannot</td><td>Build the elemental descent apparatus on Earth</td><td>when to commit to descent; which material zones to repair first</td><td>unstable insertion; failed anchoring</td></tr>
+<tr><td>Elemental stabilizer networks</td><td>Elemental / lattice and field</td><td>Hold the universe together from the inside</td><td>Atomic anchor technology and flux-field tuning</td><td>local repair order; field harmonics; macro-to-micro resource allocation</td><td>cascading resonance collapse</td></tr>
 </tbody>
 </table>
 </div>
@@ -1003,6 +1179,7 @@
 <li>what to risk</li>
 <li>how much autonomy to grant fragments or clones</li>
 <li>how much infrastructure to commit to stabilizing threatened space</li>
+<li>when to divert macro-industrial capacity into elemental repair</li>
 </ul>
 <h2 id="solar-system-emphasis-before-portals"><a class="header" href="#solar-system-emphasis-before-portals">Solar-system emphasis before portals</a></h2>
 <p>The pre-portal interplanetary phase should be long enough to matter.</p>
@@ -1015,6 +1192,17 @@
 <li>external supply dependency</li>
 </ul>
 <p>The space elevator and shuttle era should feel like the last purely industrial answer before reality-bending technologies appear.</p>
+<h2 id="final-inversion-bigger-to-smaller"><a class="header" href="#final-inversion-bigger-to-smaller">Final inversion: bigger to smaller</a></h2>
+<p>The campaign should end on a structural reversal.</p>
+<p>The player spends most of the game expanding:</p>
+<ul>
+<li>local to regional</li>
+<li>regional to planetary</li>
+<li>planetary to orbital</li>
+<li>orbital to frontier</li>
+<li>frontier to star-scale stabilization</li>
+</ul>
+<p>Then the game reveals that scale alone cannot finish the work. Raw Flux must be captured, returned, and understood deeply enough for the player to enter an elemental operating environment. The final answer is therefore not simply a bigger machine. It is a smaller one, supported by all the bigger ones.</p>
 <h2 id="progression-flowchart"><a class="header" href="#progression-flowchart">Progression flowchart</a></h2>
 <pre><code class="language-mermaid">flowchart LR
   A[Awakening: one mind in one primitive robot] --&gt; B[Chassis Bay: early specialized bodies]
@@ -1033,7 +1221,10 @@
   N --&gt; O[Time dilation: precursor chronotech fields]
   O --&gt; P[Late mind events: fragments, rare cloning]
   P --&gt; Q[Dyson swarms: star-scale power]
-  Q --&gt; R[Flux Stabilizers: endgame containment network]
+  Q --&gt; R[Flux Stabilizers: macro containment network]
+  R --&gt; S[Raw Flux captured and returned to Earth]
+  S --&gt; T[Elemental descent apparatus built]
+  T --&gt; U[Elemental stabilizer networks repair matter]
 </code></pre>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="systems-mind-and-embodiment"><a class="header" href="#systems-mind-and-embodiment">Systems: Mind And Embodiment</a></h1>
@@ -1303,6 +1494,7 @@ Late-game industrial rivals born from dangerous choices or systemic corruption.<
 <li>later time manipulation systems</li>
 </ul>
 <p>They should be high-opportunity, high-risk resources that transform strategic options rather than simply increase output.</p>
+<p>Raw Flux should become the key transition material between macro stabilization and elemental repair. It is not enough to power larger projects; it becomes the material and energetic bridge that makes the fourth scope possible.</p>
 <h2 id="portals-and-route-making"><a class="header" href="#portals-and-route-making">Portals and route-making</a></h2>
 <p>When portals appear, they should not trivialize logistics. They should redefine it.</p>
 <p>Important decisions:</p>
@@ -1313,19 +1505,31 @@ Late-game industrial rivals born from dangerous choices or systemic corruption.<
 <li>what degree of instability is tolerable</li>
 </ul>
 <p>The player should still be making industrial choices, just now at strategic graph scale.</p>
+<h2 id="elemental-stabilization"><a class="header" href="#elemental-stabilization">Elemental stabilization</a></h2>
+<p>At the end of the campaign, the player learns that Dark Flux cannot be fully defeated only by building larger structures around it. Large stabilizers can slow collapse, route pressure, and protect whole regions of space, but they do not by themselves restore matter at the level where physical law is slipping.</p>
+<p>That leads to a new endgame chain:</p>
+<ol>
+<li>harvest and contain raw Flux</li>
+<li>return it to Earth or another secure core world</li>
+<li>build a shrinking and insertion device</li>
+<li>descend into an elemental operating layer</li>
+<li>construct local stabilizers and field harmonics that repair reality from within</li>
+</ol>
+<p>This is the late-game twist that makes the campaign complete.</p>
 <h2 id="endgame-infrastructure"><a class="header" href="#endgame-infrastructure">Endgame infrastructure</a></h2>
-<p>Dyson swarms and Flux Stabilizers justify the true endgame.</p>
+<p>Dyson swarms, macro Flux Stabilizers, and elemental stabilizer networks justify the true endgame.</p>
 <p>By this point, factories have become civilizational weapons:</p>
 <ul>
 <li>stars are exploited as power sources</li>
 <li>stabilizer networks become the defense line against regional collapse</li>
+<li>elemental stabilizer lattices turn temporary defense into lasting repair</li>
 <li>route choice determines who survives</li>
 </ul>
 <p>The endgame should feel like the culmination of every earlier lesson about throughput, specialization, power, and risk.</p>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="interaction-model-and-ux"><a class="header" href="#interaction-model-and-ux">Interaction Model And UX</a></h1>
 <p>The interaction model should follow the scope framework rather than fight it.</p>
-<p>The game does not merely have camera zoom levels. It has six operational layers, grouped into three scopes. The UI should make moving between those layers feel natural and consequence-driven.</p>
+<p>The game does not merely have camera zoom levels. It has eight operational layers, grouped into four scopes. The UI should make moving between those layers feel natural and consequence-driven.</p>
 <h2 id="scope-1-planetary-1"><a class="header" href="#scope-1-planetary-1">Scope 1: Planetary</a></h2>
 <h3 id="region-layer-ux"><a class="header" href="#region-layer-ux">Region layer UX</a></h3>
 <p>Core verbs:</p>
@@ -1421,9 +1625,40 @@ Late-game industrial rivals born from dangerous choices or systemic corruption.<
 <li>expedition readiness status</li>
 <li>colonization staging checklist</li>
 </ul>
+<h2 id="scope-4-elemental-stabilization"><a class="header" href="#scope-4-elemental-stabilization">Scope 4: Elemental stabilization</a></h2>
+<h3 id="lattice-layer-ux"><a class="header" href="#lattice-layer-ux">Lattice layer UX</a></h3>
+<p>Core verbs:</p>
+<ul>
+<li>scan atomic fracture patterns</li>
+<li>place stabilizer anchors</li>
+<li>connect local repair meshes</li>
+<li>verify structural integrity under stress</li>
+</ul>
+<p>Important tools:</p>
+<ul>
+<li>local lattice stress overlay</li>
+<li>contamination and fracture map</li>
+<li>anchor stability indicators</li>
+<li>repair propagation preview</li>
+</ul>
+<h3 id="flux-field-layer-ux"><a class="header" href="#flux-field-layer-ux">Flux field layer UX</a></h3>
+<p>Core verbs:</p>
+<ul>
+<li>tune harmonics</li>
+<li>route stabilization pressure</li>
+<li>observe resonance spread</li>
+<li>prevent overload or inversion</li>
+</ul>
+<p>Important tools:</p>
+<ul>
+<li>field-flow visualizer</li>
+<li>harmonic tuning panel</li>
+<li>resonance conflict warnings</li>
+<li>macro-to-micro coupling display</li>
+</ul>
 <h2 id="global-ux-principles"><a class="header" href="#global-ux-principles">Global UX principles</a></h2>
 <h3 id="1-one-consistent-guidance-channel"><a class="header" href="#1-one-consistent-guidance-channel">1. One consistent guidance channel</a></h3>
-<p>Tutorial and hint systems should not fragment by scope. The player should feel that they are learning one coherent game, not six partially connected interfaces.</p>
+<p>Tutorial and hint systems should not fragment by scope. The player should feel that they are learning one coherent game, not eight partially connected interfaces.</p>
 <h3 id="2-persistent-top-level-context"><a class="header" href="#2-persistent-top-level-context">2. Persistent top-level context</a></h3>
 <p>A global top bar should remain visible across layers and expose:</p>
 <ul>
@@ -1446,6 +1681,8 @@ Late-game industrial rivals born from dangerous choices or systemic corruption.<
 <li><code>4</code>: station interior</li>
 <li><code>5</code>: route and gate layer</li>
 <li><code>6</code>: frontier operations layer</li>
+<li><code>7</code>: lattice layer</li>
+<li><code>8</code>: flux field layer</li>
 </ul>
 <p>The exact mapping can change, but the conceptual rule matters: each operational layer should be reachable directly, and the player should not feel lost while moving between them.</p>
 <div style="break-before: page; page-break-before: always;"></div>
@@ -1459,6 +1696,7 @@ Late-game industrial rivals born from dangerous choices or systemic corruption.<
 <li><strong>Drone towers</strong> unlock when scale makes manual hauling irrational.</li>
 <li><strong>Space elevators</strong> unlock when rockets are insufficient for sustained industrial throughput.</li>
 <li><strong>Time dilation</strong> unlocks only after chronotech discovery makes it believable and dangerous.</li>
+<li><strong>Elemental descent</strong> unlocks only after the player proves they can capture raw Flux safely enough to bring the problem home and work on it at atomic scale.</li>
 </ul>
 <h2 id="player-choices-should-have-systemic-meaning"><a class="header" href="#player-choices-should-have-systemic-meaning">Player choices should have systemic meaning</a></h2>
 <p>The player should not only choose production layouts. They should also choose doctrine.</p>
@@ -1468,6 +1706,7 @@ Late-game industrial rivals born from dangerous choices or systemic corruption.<
 <li>heavy time acceleration may attract or intensify Flux pressure</li>
 <li>preserving precursor sites may slow progress but improve safety and understanding</li>
 <li>stabilizer placement choices determine which systems remain defensible</li>
+<li>deciding when to shift effort from macro stabilizers to elemental repair determines whether survival becomes true recovery</li>
 </ul>
 <h2 id="agency-themes"><a class="header" href="#agency-themes">Agency themes</a></h2>
 <p>The player’s agency should widen in a controlled way:</p>
@@ -1477,6 +1716,7 @@ Late-game industrial rivals born from dangerous choices or systemic corruption.<
 <li>then over multiple regions</li>
 <li>then over stations and routes</li>
 <li>then over fragments and strategic territory</li>
+<li>then over the smallest structures that keep matter coherent at all</li>
 </ul>
 <p>This widening must always feel earned through infrastructure rather than granted by abstract authority.</p>
 <h2 id="core-thematic-tension"><a class="header" href="#core-thematic-tension">Core thematic tension</a></h2>
@@ -1574,7 +1814,9 @@ Useful for mystery, curiosity, and existential contact tone.</li>
 <li>Tier 9: Flux containment and portals</li>
 <li>Tier 10: precursor chronotech and time dilation</li>
 <li>Tier 11: fragments and rare cloning</li>
-<li>Tier 12: Dyson swarms and Flux Stabilizers</li>
+<li>Tier 12: Dyson swarms and macro Flux Stabilizers</li>
+<li>Tier 13: raw Flux capture and elemental descent apparatus</li>
+<li>Tier 14: elemental stabilizer lattices and field harmonics</li>
 </ul>
 <h2 id="enemy-and-flux-mechanics-draft"><a class="header" href="#enemy-and-flux-mechanics-draft">Enemy and Flux mechanics draft</a></h2>
 <p>Threat families to define in detail:</p>
@@ -1598,8 +1840,9 @@ Useful for mystery, curiosity, and existential contact tone.</li>
 <li>A planet-scope design chapter with region and inter-region UX examples.</li>
 <li>A station-scope design chapter with interior and exterior module examples.</li>
 <li>A frontier-scope design chapter with shuttle routes, asteroid hubs, and gate planning.</li>
+<li>An elemental-scope design chapter covering lattice construction, field tuning, and macro-to-micro coupling.</li>
 <li>A save, sync, and identity document explaining rollback, backup, and clone rules.</li>
-<li>A data model for items, machines, regions, stations, routes, and minds.</li>
+<li>A data model for items, machines, regions, stations, routes, minds, and elemental stabilizer structures.</li>
 </ol>
 <h2 id="long-term-documentation-direction"><a class="header" href="#long-term-documentation-direction">Long-term documentation direction</a></h2>
 <p>As the project evolves, this mdBook should become the place where:</p>
