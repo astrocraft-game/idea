@@ -134,6 +134,38 @@ Primary concerns:
 
 This layer is important because it keeps expansion concrete. The route map should not become abstract empire management detached from physical process. Every route should point toward a place where machinery, hazards, and opportunity become tangible again.
 
+## Scope 4: Elemental stabilization
+
+### Layer 4A: Lattice layer
+
+This layer is the local operational face of the elemental scope.
+
+Primary concerns:
+
+- entering destabilized material zones
+- identifying fracture patterns in matter
+- placing atomic anchor points
+- building local stabilizer meshes
+- repairing damaged structures at microscopic scale
+- verifying that repaired zones remain coherent under stress
+
+This layer should feel precise, fragile, and strange, but still recognizably industrial. The player is still solving placement, routing, reinforcement, and stabilization problems. The difference is that the terrain is now matter itself.
+
+### Layer 4B: Flux field layer
+
+This layer is the strategic and systemic face of elemental play.
+
+Primary concerns:
+
+- field propagation
+- harmonic tuning
+- resonance management
+- coupling local lattice repairs into wider stabilization networks
+- preventing overload, inversion, or cascade collapse
+- deciding where limited stabilization pressure should be concentrated first
+
+If the lattice layer is about constructing order locally, the flux field layer is about making that order spread, hold, and reinforce neighboring regions. This is what turns elemental repair into a full scope rather than a narrow late-game puzzle mode.
+
 ## Scope transition logic
 
 The campaign should repeatedly follow a stable pattern:
