@@ -2,7 +2,7 @@
 
 The interaction model should follow the scope framework rather than fight it.
 
-The game does not merely have camera zoom levels. It has six operational layers, grouped into three scopes. The UI should make moving between those layers feel natural and consequence-driven.
+The game does not merely have camera zoom levels. It has eight operational layers, grouped into four scopes. The UI should make moving between those layers feel natural and consequence-driven.
 
 ## Scope 1: Planetary
 
@@ -108,11 +108,45 @@ Important tools:
 - expedition readiness status
 - colonization staging checklist
 
+## Scope 4: Elemental stabilization
+
+### Lattice layer UX
+
+Core verbs:
+
+- scan atomic fracture patterns
+- place stabilizer anchors
+- connect local repair meshes
+- verify structural integrity under stress
+
+Important tools:
+
+- local lattice stress overlay
+- contamination and fracture map
+- anchor stability indicators
+- repair propagation preview
+
+### Flux field layer UX
+
+Core verbs:
+
+- tune harmonics
+- route stabilization pressure
+- observe resonance spread
+- prevent overload or inversion
+
+Important tools:
+
+- field-flow visualizer
+- harmonic tuning panel
+- resonance conflict warnings
+- macro-to-micro coupling display
+
 ## Global UX principles
 
 ### 1. One consistent guidance channel
 
-Tutorial and hint systems should not fragment by scope. The player should feel that they are learning one coherent game, not six partially connected interfaces.
+Tutorial and hint systems should not fragment by scope. The player should feel that they are learning one coherent game, not eight partially connected interfaces.
 
 ### 2. Persistent top-level context
 
@@ -142,5 +176,7 @@ A simple first pass:
 - `4`: station interior
 - `5`: route and gate layer
 - `6`: frontier operations layer
+- `7`: lattice layer
+- `8`: flux field layer
 
 The exact mapping can change, but the conceptual rule matters: each operational layer should be reachable directly, and the player should not feel lost while moving between them.

@@ -2,15 +2,16 @@
 
 This chapter defines the main structural lens of the game.
 
-The design is organized around **three major scopes**, and each scope contains **two layers**. Those six layers are not arbitrary zoom levels. Each one changes what the player is responsible for, what information must be visible, and what kinds of logistical failure become common.
+The design is organized around **four major scopes**, and each scope contains **two layers**. Those eight layers are not arbitrary zoom levels. Each one changes what the player is responsible for, what information must be visible, and what kinds of logistical failure become common.
 
-## The three scopes
+## The four scopes
 
 | Scope | Layer A | Layer B | Primary fantasy |
 |---|---|---|---|
 | Planetary | Region factory layer | Inter-region / continental layer | Turn local industry into a planetary network |
 | Space station | Exterior orbital layer | Interior station layer | Turn orbit into a productive industrial body |
 | Interplanetary frontier | Route and gate layer | Frontier extraction and colonization layer | Turn distance into infrastructure |
+| Elemental stabilization | Lattice layer | Flux field layer | Turn matter itself into a repairable industrial system |
 
 ## Why this structure is better than a flat list of scales
 
@@ -24,6 +25,8 @@ For example:
 - the station interior layer is about turning the station into a functioning factory
 - the route layer is about deciding where movement and expansion should happen
 - the frontier layer is about exploiting distant opportunities and creating the next foothold
+- the lattice layer is about direct atomic repair and local stabilizer construction
+- the flux field layer is about propagating order through unstable matter
 
 That means each scope has an inner operational layer and an outer organizational layer, but the exact character of those layers changes with the fiction.
 
@@ -153,8 +156,16 @@ Example:
 
 The same pattern then repeats into frontier play.
 
+One final inversion then occurs:
+
+1. Build civilization-scale stabilizer networks.
+2. Discover that macro stabilization is not enough.
+3. Capture raw Flux and return it to a planetary research core.
+4. Build the shrinking and containment apparatus.
+5. Re-enter the game at elemental scale and repair reality from within.
+
 ## Design constraint
 
 No scope should invalidate the previous one.
 
-The player should never feel that planetary play was merely early-game filler once stations exist, or that stations become irrelevant once gates exist. Older layers should remain active contributors inside the larger strategic machine.
+The player should never feel that planetary play was merely early-game filler once stations exist, or that stations become irrelevant once gates exist, or that macro play becomes irrelevant once elemental descent begins. Older layers should remain active contributors inside the larger strategic machine.

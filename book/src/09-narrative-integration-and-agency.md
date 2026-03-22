@@ -10,6 +10,7 @@ Narrative triggers should unlock mechanics as consequences rather than as arbitr
 - **Drone towers** unlock when scale makes manual hauling irrational.
 - **Space elevators** unlock when rockets are insufficient for sustained industrial throughput.
 - **Time dilation** unlocks only after chronotech discovery makes it believable and dangerous.
+- **Elemental descent** unlocks only after the player proves they can capture raw Flux safely enough to bring the problem home and work on it at atomic scale.
 
 ## Player choices should have systemic meaning
 
@@ -21,6 +22,7 @@ Examples:
 - heavy time acceleration may attract or intensify Flux pressure
 - preserving precursor sites may slow progress but improve safety and understanding
 - stabilizer placement choices determine which systems remain defensible
+- deciding when to shift effort from macro stabilizers to elemental repair determines whether survival becomes true recovery
 
 ## Agency themes
 
@@ -31,6 +33,7 @@ The player’s agency should widen in a controlled way:
 - then over multiple regions
 - then over stations and routes
 - then over fragments and strategic territory
+- then over the smallest structures that keep matter coherent at all
 
 This widening must always feel earned through infrastructure rather than granted by abstract authority.
 

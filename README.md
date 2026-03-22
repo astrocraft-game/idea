@@ -2,11 +2,12 @@
 
 This folder contains the astrocraft design documentation in mdBook format.
 
-At the highest level, the game is about an ascended human mind in a **Mind Disk** rebuilding physical industry against **Dark Flux**. The design is organized around three major scopes, each with two operational layers:
+At the highest level, the game is about an ascended human mind in a **Mind Disk** rebuilding physical industry against **Dark Flux**. The design is organized around four major scopes, each with two operational layers:
 
 - planetary
 - space station
 - interplanetary frontier
+- elemental stabilization
 
 The detailed design lives in [`idea/book/src/`](./book/src). Start with [`idea/book/src/SUMMARY.md`](./book/src/SUMMARY.md).
 

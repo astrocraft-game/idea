@@ -91,6 +91,8 @@ They justify:
 
 They should be high-opportunity, high-risk resources that transform strategic options rather than simply increase output.
 
+Raw Flux should become the key transition material between macro stabilization and elemental repair. It is not enough to power larger projects; it becomes the material and energetic bridge that makes the fourth scope possible.
+
 ## Portals and route-making
 
 When portals appear, they should not trivialize logistics. They should redefine it.
@@ -104,14 +106,29 @@ Important decisions:
 
 The player should still be making industrial choices, just now at strategic graph scale.
 
+## Elemental stabilization
+
+At the end of the campaign, the player learns that Dark Flux cannot be fully defeated only by building larger structures around it. Large stabilizers can slow collapse, route pressure, and protect whole regions of space, but they do not by themselves restore matter at the level where physical law is slipping.
+
+That leads to a new endgame chain:
+
+1. harvest and contain raw Flux
+2. return it to Earth or another secure core world
+3. build a shrinking and insertion device
+4. descend into an elemental operating layer
+5. construct local stabilizers and field harmonics that repair reality from within
+
+This is the late-game twist that makes the campaign complete.
+
 ## Endgame infrastructure
 
-Dyson swarms and Flux Stabilizers justify the true endgame.
+Dyson swarms, macro Flux Stabilizers, and elemental stabilizer networks justify the true endgame.
 
 By this point, factories have become civilizational weapons:
 
 - stars are exploited as power sources
 - stabilizer networks become the defense line against regional collapse
+- elemental stabilizer lattices turn temporary defense into lasting repair
 - route choice determines who survives
 
 The endgame should feel like the culmination of every earlier lesson about throughput, specialization, power, and risk.

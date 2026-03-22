@@ -24,7 +24,10 @@ Caveat: exact numeric thresholds remain unspecified and should be tuned through 
 | Flux crystals and deep-belt mining | Frontier / frontier | The universe has seams | Prospecting and containment tech | risky mining vs safe scaling | rare catastrophic incidents |
 | Portals and time dilation | Frontier / route | Distance collapses; clocks bend | Flux stabilization and precursor chronotech | gate topology; acceleration zones | instability and maintenance burden |
 | Fragments and cloning | Frontier / route and governance | Governance of selves | Mind Replication Chamber and strict prereqs | whether to fork at all; permissions | rogue clone emergence |
-| Dyson swarms and stabilizers | Strategic endgame across all scopes | Star-scale power; hold the line | megaproject chains | which stars and systems to prioritize | losing regions and routes to Flux pressure |
+| Dyson swarms and stabilizers | Strategic endgame across macro scopes | Star-scale power; hold the line | megaproject chains | which stars and systems to prioritize | losing regions and routes to Flux pressure |
+| Raw Flux capture and return to Earth | Frontier to elemental transition | The enemy can be carried home as a cure or a catastrophe | Safe capture, containment, and transport chain | where to harvest; how much to risk transporting; what returns to Earth | containment failure; strategic overreach |
+| Shrinking device and first elemental descent | Elemental / lattice | Go inward to repair what scale alone cannot | Build the elemental descent apparatus on Earth | when to commit to descent; which material zones to repair first | unstable insertion; failed anchoring |
+| Elemental stabilizer networks | Elemental / lattice and field | Hold the universe together from the inside | Atomic anchor technology and flux-field tuning | local repair order; field harmonics; macro-to-micro resource allocation | cascading resonance collapse |
 
 ## Pacing logic
 
@@ -55,6 +58,7 @@ The late game should shift from optimization toward strategic doctrine:
 - what to risk
 - how much autonomy to grant fragments or clones
 - how much infrastructure to commit to stabilizing threatened space
+- when to divert macro-industrial capacity into elemental repair
 
 ## Solar-system emphasis before portals
 
@@ -69,6 +73,20 @@ This is the crucial bridge between local factory simulation and large strategic 
 - external supply dependency
 
 The space elevator and shuttle era should feel like the last purely industrial answer before reality-bending technologies appear.
+
+## Final inversion: bigger to smaller
+
+The campaign should end on a structural reversal.
+
+The player spends most of the game expanding:
+
+- local to regional
+- regional to planetary
+- planetary to orbital
+- orbital to frontier
+- frontier to star-scale stabilization
+
+Then the game reveals that scale alone cannot finish the work. Raw Flux must be captured, returned, and understood deeply enough for the player to enter an elemental operating environment. The final answer is therefore not simply a bigger machine. It is a smaller one, supported by all the bigger ones.
 
 ## Progression flowchart
 
@@ -90,5 +108,8 @@ flowchart LR
   N --> O[Time dilation: precursor chronotech fields]
   O --> P[Late mind events: fragments, rare cloning]
   P --> Q[Dyson swarms: star-scale power]
-  Q --> R[Flux Stabilizers: endgame containment network]
+  Q --> R[Flux Stabilizers: macro containment network]
+  R --> S[Raw Flux captured and returned to Earth]
+  S --> T[Elemental descent apparatus built]
+  T --> U[Elemental stabilizer networks repair matter]
 ```

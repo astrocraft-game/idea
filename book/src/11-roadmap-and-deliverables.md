@@ -36,7 +36,9 @@ A one-page initial tech tree should include:
 - Tier 9: Flux containment and portals
 - Tier 10: precursor chronotech and time dilation
 - Tier 11: fragments and rare cloning
-- Tier 12: Dyson swarms and Flux Stabilizers
+- Tier 12: Dyson swarms and macro Flux Stabilizers
+- Tier 13: raw Flux capture and elemental descent apparatus
+- Tier 14: elemental stabilizer lattices and field harmonics
 
 ## Enemy and Flux mechanics draft
 
@@ -62,8 +64,9 @@ The next documents worth writing are:
 2. A planet-scope design chapter with region and inter-region UX examples.
 3. A station-scope design chapter with interior and exterior module examples.
 4. A frontier-scope design chapter with shuttle routes, asteroid hubs, and gate planning.
-5. A save, sync, and identity document explaining rollback, backup, and clone rules.
-6. A data model for items, machines, regions, stations, routes, and minds.
+5. An elemental-scope design chapter covering lattice construction, field tuning, and macro-to-micro coupling.
+6. A save, sync, and identity document explaining rollback, backup, and clone rules.
+7. A data model for items, machines, regions, stations, routes, minds, and elemental stabilizer structures.
 
 ## Long-term documentation direction
 

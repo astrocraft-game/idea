@@ -21,6 +21,7 @@ Mechanics should unlock when the story makes them inevitable.
 - orbital industry appears when planetary industry stops being enough
 - interplanetary routing appears when the player must reach resources and positions that cannot be supplied from one world
 - gates and time manipulation appear only after precursor and Flux-related breakthroughs
+- elemental descent appears only after raw Flux can be captured, contained, and translated into an inward stabilization program
 - cloning remains late because the fiction should treat it as dangerous, not routine
 
 ### 2. Embodiment matters
@@ -33,7 +34,7 @@ The game should not spend too long pretending to be a manual survival game. The 
 
 ### 4. Scale should expand, not fracture
 
-The game is intentionally broad, but it should never feel like disconnected minigames. Planetary logistics, station management, and frontier expansion should all share the same mental model:
+The game is intentionally broad, but it should never feel like disconnected minigames. Planetary logistics, station management, frontier expansion, and elemental stabilization should all share the same mental model:
 
 - production nodes
 - transport links
@@ -54,13 +55,14 @@ Dark Flux is not just lore wallpaper. It justifies:
 
 ## High-level game shape
 
-The campaign grows through three major working scopes:
+The campaign grows through four major working scopes:
 
 1. Planetary industry
 2. Orbital and station industry
 3. Interplanetary and later interstellar expansion
+4. Elemental stabilization inside matter
 
-Each scope has two operating layers. That six-layer structure becomes the primary backbone of the design and of the user experience.
+Each scope has two operating layers. That eight-layer structure becomes the primary backbone of the design and of the user experience.
 
 ## Why the scope model matters
 
@@ -72,11 +74,14 @@ At the station level, the player learns external infrastructure and internal ind
 
 At the frontier level, the player learns route creation and then exploitation of distant opportunities.
 
+At the elemental level, the player learns local lattice repair and then field-scale propagation of stabilization through matter itself.
+
 That is the intended rhythm of the whole game:
 
 - build competence locally
 - push outward
 - create a new layer of logistics
 - then industrialize that new layer
+- finally turn inward and apply the same logic at the scale of matter
 
 The rest of this book elaborates that structure in detail.
