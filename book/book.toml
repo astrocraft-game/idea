@@ -1,0 +1,11 @@
+[book]
+title = "Atrocraft"
+authors = ["bresilla"]
+language = "en"
+src = "src"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+git-repository-url = ""
+mathjax-support = false
