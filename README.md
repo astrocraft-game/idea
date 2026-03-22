@@ -1,6 +1,6 @@
-# Atrocraft
+# astrocraft
 
-This folder contains the Atrocraft design documentation in mdBook format.
+This folder contains the astrocraft design documentation in mdBook format.
 
 At the highest level, the game is about an ascended human mind in a **Mind Disk** rebuilding physical industry against **Dark Flux**. The design is organized around three major scopes, each with two operational layers:
 
