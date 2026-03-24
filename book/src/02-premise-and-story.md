@@ -72,11 +72,12 @@ From there the campaign broadens:
 - orbit becomes industry
 - shuttles and elevators become logistics arteries
 - asteroids become extractive frontier
-- gates and time manipulation reshape strategic distance
+- star gates reshape strategic distance
 - cloning and fragments threaten governance itself
 - Dyson swarms and Flux stabilizers turn industry into a galactic defense project
-- raw Flux capture turns the player back toward Earth and toward the smallest scale of all
-- elemental descent reveals that cosmic repair requires atomic construction as well as megastructures
+- molecular descent reveals biological systems as a new industrial terrain
+- raw Flux capture and atomic shrinking turn the player toward the smallest scale of all
+- quantum repair reveals that cosmic repair requires atomic construction as well as megastructures
 
 The core dramatic turn is simple:
 

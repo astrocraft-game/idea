@@ -6,12 +6,12 @@ The design is organized around **four major scopes**, and each scope contains **
 
 ## The four scopes
 
-| Scope | Layer A | Layer B | Primary fantasy |
+| Scope | Layer A (Primary) | Layer B (Secondary) | Primary fantasy |
 |---|---|---|---|
-| Planetary | Region factory layer | Inter-region / continental layer | Turn local industry into a planetary network |
-| Space station | Exterior orbital layer | Interior station layer | Turn orbit into a productive industrial body |
-| Interplanetary frontier | Route and gate layer | Frontier extraction and colonization layer | Turn distance into infrastructure |
-| Elemental stabilization | Lattice layer | Flux field layer | Turn matter itself into a repairable industrial system |
+| Planet | P1 Region — local factory floor | P2 Planet — multiple regions on one world | Turn local industry into a planetary network |
+| Orbit | O1 Orbit — orbital view with station and optional planet | O2 Station — station internals | Turn orbit into a productive industrial body |
+| Space | S1 Star — solar system with asteroids and routes | S2 Galaxy — full galaxy view and star gates | Turn distance into infrastructure |
+| Element | E1 Molecule — molecular-level construction and biology | E2 Quantum — atomic-level stabilization and flux repair | Turn matter itself into a repairable industrial system |
 
 ## Why this structure is better than a flat list of scales
 
@@ -20,19 +20,19 @@ A flat list of scales describes camera distance. A scope model describes respons
 For example:
 
 - the region layer is about production topology and immediate logistics
-- the inter-region layer is about deficits, exports, imports, and specialization
-- the station exterior layer is about orbital structure and exchange with surrounding space
-- the station interior layer is about turning the station into a functioning factory
-- the route layer is about deciding where movement and expansion should happen
-- the frontier layer is about exploiting distant opportunities and creating the next foothold
-- the lattice layer is about direct atomic repair and local stabilizer construction
-- the flux field layer is about propagating order through unstable matter
+- the planet layer is about deficits, exports, imports, and specialization across regions
+- the orbit layer is about orbital structure, the station, and exchange with the planet below
+- the station layer is about turning the station into a functioning factory
+- the star layer is about deciding where movement and expansion should happen within a solar system
+- the galaxy layer is about exploiting distant opportunities, star gates, and creating the next foothold
+- the molecule layer is about direct biological and molecular-scale construction and repair
+- the quantum layer is about propagating atomic stabilization through unstable matter
 
 That means each scope has an inner operational layer and an outer organizational layer, but the exact character of those layers changes with the fiction.
 
-## Scope 1: Planetary
+## Scope 1: Planet
 
-### Layer 1A: Region factory layer
+### Layer P1: Region
 
 This is the place where the player first learns the grammar of the game:
 
@@ -48,14 +48,16 @@ This layer should feel tactile, readable, and materially grounded. Machines occu
 
 The region layer is where the player builds trust in the simulation.
 
-### Layer 1B: Inter-region / continental layer
+### Layer P2: Planet
 
 Once local industry works, the player should be pulled into macro management of a whole planet.
+
+A planet contains zero or more regions. A planet with zero regions is **unexplored** — the player lands and sees barren, unknown terrain. They must explore (send probes, build outposts) to discover and create regions.
 
 This layer handles:
 
 - regional specialization
-- long-distance transfers
+- long-distance transfers between regions
 - macro deficits and surpluses
 - strategic placement of new industrial nodes
 - bandwidth and flow allocation for high-level transport systems
@@ -63,108 +65,157 @@ This layer handles:
 
 The core feeling here should be, "My factories are no longer isolated; they are organs in one planetary body."
 
-This is where local mistakes become systemic. A shortage in one region can ripple outward. A well-designed regional specialization plan can unlock exponential growth.
+## Scope 2: Orbit
 
-## Scope 2: Space station
+### Layer O1: Orbit
 
-### Layer 2A: Station exterior layer
+The orbit layer is the orbital view around a celestial body. Every orbit contains exactly one space station. Some orbits also have a planet visible below.
 
-The exterior station layer is where orbit becomes architecture.
+This is where orbit becomes architecture and logistics at the same time. The player sees:
 
-Primary concerns:
+- the space station as a dockable, expandable structure
+- the planet below (if present), with its regions as clickable entry points
+- shuttle and elevator traffic between station and planet
+- asteroid fields and local orbital resources
 
-- adding modules to the hull or ring
-- docking and cargo exchange
-- shuttle handling
-- power arrays and exposed infrastructure
-- orbital traffic and external logistics
-- relationship to the planet below and the asteroids beyond
+From this view the player can enter the station (→ O2) or descend to the planet surface (→ P2), if one exists.
 
-This layer should feel infrastructural and strategic. It is less about individual assemblers and more about station shape, exposed systems, throughput, and external role.
+### Layer O2: Station
 
-### Layer 2B: Station interior layer
-
-The station interior layer is where the player turns orbital infrastructure into an industrial engine.
+The station interior layer is where the orbital shell becomes an industrial organism.
 
 Primary concerns:
 
-- module interiors
-- manufacturing lines
+- module interiors and manufacturing lines
 - rocket and shuttle production
-- specialized refinement
+- specialized refinement and advanced manufacturing
 - storage, drones, and internal transport
-- high-value production that benefits from orbital context
+- space miner construction
+- molecular shrinking research (epoch 4 — unlocks E1 later)
 
-This should not feel like "just another factory map." The station interior should feel constrained by orbital design decisions made on the exterior layer. Internal efficiency depends on external capacity and vice versa.
+The station should not feel like "just another factory map." The station interior should feel constrained by orbital design decisions. Internal efficiency depends on external capacity and vice versa.
 
-The station becomes a two-sided object:
+## Scope 3: Space
 
-- outside, it is a logistics body
-- inside, it is a manufacturing organism
+### Layer S1: Star
 
-## Scope 3: Interplanetary and frontier expansion
-
-### Layer 3A: Route and gate layer
-
-This layer handles movement at strategic scale.
+The star layer is a solar system view. The player sees a star at center, orbiting bodies, asteroid belts, and routes between them.
 
 Primary concerns:
 
-- plotting and protecting routes
-- deciding where to build gates
-- choosing which systems to prioritize
-- creating trade corridors
-- balancing long-haul movement cost against strategic reward
-- managing the shape of expansion
+- send miners to mine asteroids and satellites
+- send space stations to orbit new planets for exploration
+- route creation and traffic prioritization
+- managing the shape of expansion within one star system
 
-This is where the player stops merely supplying places and starts shaping a network.
+A planet can only be explored if there is a station in orbit nearby (before star gates).
 
-### Layer 3B: Frontier extraction and colonization layer
+### Layer S2: Galaxy
 
-This is the operational face of distant expansion.
+The galaxy layer is the full galactic view. Solar systems are clickable objects.
 
 Primary concerns:
 
-- asteroid prospecting and mining
-- anomaly probing
-- orbital footholds
-- new space stations
-- staging grounds for descent to new planets
-- risky extraction of rare materials such as Flux crystals
+- interstellar route planning
+- star gate construction and management
+- sending stations on long journeys to other star systems
+- strategic network topology across the galaxy
+- flux material research and atomic-level shrinking discovery
 
-This layer is important because it keeps expansion concrete. The route map should not become abstract empire management detached from physical process. Every route should point toward a place where machinery, hazards, and opportunity become tangible again.
+Star gates (unlocked at this epoch) allow direct travel to any planet or orbit without needing a nearby station — this changes the entire access model for the game.
 
-## Scope 4: Elemental stabilization
+## Scope 4: Element
 
-### Layer 4A: Lattice layer
+### Layer E1: Molecule
 
-This layer is the local operational face of the elemental scope.
+The molecule layer is entered through shrinkers built in stations (O2) or regions (P1).
 
-Primary concerns:
+This is where the game turns inward. Instead of building outward into space, the player shrinks into matter itself. At this scale:
 
-- entering destabilized material zones
-- identifying fracture patterns in matter
-- placing atomic anchor points
-- building local stabilizer meshes
-- repairing damaged structures at microscopic scale
-- verifying that repaired zones remain coherent under stress
+- biological systems become the terrain — viruses, bacteria, molecular structures
+- gene editing and molecular construction become the core verbs
+- the player builds stabilizer structures at molecular scale
+- shrinker machines in the macro world serve as entry points
 
-This layer should feel precise, fragile, and strange, but still recognizably industrial. The player is still solving placement, routing, reinforcement, and stabilization problems. The difference is that the terrain is now matter itself.
+This layer should feel strange but still recognizably industrial. The player is still solving placement, routing, reinforcement, and stabilization problems. The difference is that the terrain is now living matter.
 
-### Layer 4B: Flux field layer
+### Layer E2: Quantum
 
-This layer is the strategic and systemic face of elemental play.
+The quantum layer is the deepest level — entered from within an E1 molecule instance.
 
 Primary concerns:
 
-- field propagation
-- harmonic tuning
-- resonance management
-- coupling local lattice repairs into wider stabilization networks
+- atomic-level stabilization
+- flux field propagation and harmonic tuning
+- resonance management across quantum structures
+- coupling local atomic repairs into wider stabilization networks
 - preventing overload, inversion, or cascade collapse
-- deciding where limited stabilization pressure should be concentrated first
 
-If the lattice layer is about constructing order locally, the flux field layer is about making that order spread, hold, and reinforce neighboring regions. This is what turns elemental repair into a full scope rather than a narrow late-game puzzle mode.
+If the molecule layer is about constructing order at biological scale, the quantum layer is about making that order hold at the fundamental level where physical law itself is slipping.
+
+This is where Dark Flux is finally confronted directly.
+
+## Navigation hierarchy
+
+The eight layers form a nested drill-down tree. The player navigates **down** by clicking an entity and choosing "Enter" in the click panel, and **up** via a single back button. There are no flat scope/layer selection buttons — movement is always entity-driven or via back.
+
+```
+S2 Galaxy — solar systems as clickable objects
+ └─ S1 Star — orbits around a star, asteroid belts
+      └─ O1 Orbit — station + optional planet below
+           ├─ O2 Station — station internals
+           │    └─ E1 Molecule (optional, shrinker needed)
+           │         └─ E2 Quantum
+           └─ P2 Planet (optional, 0 or 1 per orbit)
+                └─ P1 Region (0..N per planet, 0 = unexplored)
+                     └─ E1 Molecule (optional, shrinker needed)
+                          └─ E2 Quantum
+```
+
+### Child count rules
+
+| Parent | Child | Count |
+|---|---|---|
+| S2 Galaxy | S1 Star | 1..N |
+| S1 Star | O1 Orbit | 1..N |
+| O1 Orbit | O2 Station | exactly 1 (always) |
+| O1 Orbit | P2 Planet | 0 or 1 |
+| P2 Planet | P1 Region | 0..N (0 = unexplored) |
+| P1 Region | E1 Molecule | 0..N (shrinker needed) |
+| O2 Station | E1 Molecule | 0..N (shrinker needed) |
+| E1 Molecule | E2 Quantum | 0..N (atomic shrinker needed) |
+
+### Orbit composition rules
+
+Every orbit has exactly one station. Some orbits also have a planet. Not every orbit has a planet — some are pure station outposts in asteroid fields or at strategic route junctions.
+
+A planet with zero regions is unexplored. The player can enter it and see barren terrain, but there is nothing to do until they explore and establish regions.
+
+### Planet access rules
+
+Before star gates (epochs 1–6), a planet is only accessible from its parent orbit. The player must have a station nearby to look into a planet.
+
+After star gates (epoch 7+), star gates from S2 allow direct travel to any planet, orbit, or star — bypassing the station requirement entirely.
+
+### Code identifiers
+
+| Name | Scope + Layer | Code | Description |
+|---|---|---|---|
+| Galaxy | Space Secondary | S2 | Solar systems as clickable objects, star gates |
+| Star | Space Primary | S1 | Orbits around a star, asteroid belts, routes |
+| Orbit | Orbit Primary | O1 | Orbital view with station and optional planet |
+| Station | Orbit Secondary | O2 | Interior of the space station |
+| Planet | Planet Secondary | P2 | Planet surface with 0..N regions |
+| Region | Planet Primary | P1 | Machines, resources, belts, mind disk |
+| Molecule | Element Primary | E1 | Molecular-level biological construction |
+| Quantum | Element Secondary | E2 | Atomic-level flux stabilization |
+
+### Key navigation rules
+
+- **Down**: always through an entity interaction (click entity → "Enter" in click panel → push current level to navigation stack → transition to child level).
+- **Up**: single back button in the right-stack UI (pops navigation stack). Disabled at S2 (top level).
+- **Level indicator**: the right-stack always shows the current level code (e.g. "P1") in the scope's accent color, not clickable.
+- Entities that serve as navigation portals carry a `NavigationTarget` component.
 
 ## Scope transition logic
 
@@ -180,21 +231,20 @@ That rhythm produces coherence.
 
 Example:
 
-1. Build a strong local planetary factory.
+1. Build a strong local planetary factory (P1).
 2. Outgrow single-region logistics.
-3. Unlock inter-region transport and specialization.
-4. Use planetary scale to support launch and orbital construction.
-5. Enter the station interior and build new local industry there.
+3. Unlock planet-wide transport and specialization (P2).
+4. Use planetary scale to support launch and orbital construction (O1).
+5. Enter the station interior and build new local industry there (O2).
+6. Research molecular shrinking in the station.
+7. Build shrinkers and descend into molecular terrain (E1).
 
-The same pattern then repeats into frontier play.
-
-One final inversion then occurs:
+The same pattern then repeats into space play (S1, S2), and finally the deepest inversion:
 
 1. Build civilization-scale stabilizer networks.
 2. Discover that macro stabilization is not enough.
-3. Capture raw Flux and return it to a planetary research core.
-4. Build the shrinking and containment apparatus.
-5. Re-enter the game at elemental scale and repair reality from within.
+3. Enter existing molecule instances and build atomic shrinkers.
+4. Descend to quantum level (E2) and repair reality from the inside.
 
 ## Design constraint
 

@@ -22,23 +22,24 @@ The player should leave the first hour understanding three things:
 
 ## Tech tree draft
 
-A one-page initial tech tree should include:
+A one-page initial tech tree aligned with the eight epochs:
 
-- Tier 0: Chassis Bay, belts, furnaces, assemblers
+- Tier 0: Chassis Bay, belts, furnaces, assemblers (Epoch 1: Awakening)
 - Tier 1: power grid, basic research, sensors
 - Tier 2: electronics and Mind Sync Station
 - Tier 3: smart modules and pull rails
 - Tier 4: drone towers
-- Tier 5: mind control towers
+- Tier 5: mind control towers (Epoch 2: Expansion)
 - Tier 6: planetary photonic beacons
-- Tier 7: orbit and station modules
-- Tier 8: elevators, shuttles, asteroid hubs
-- Tier 9: Flux containment and portals
-- Tier 10: precursor chronotech and time dilation
-- Tier 11: fragments and rare cloning
-- Tier 12: Dyson swarms and macro Flux Stabilizers
-- Tier 13: raw Flux capture and elemental descent apparatus
-- Tier 14: elemental stabilizer lattices and field harmonics
+- Tier 7: orbit launch and station modules (Epoch 3: Ascend)
+- Tier 8: station interior industry, space miners (Epoch 4: Science)
+- Tier 9: molecular shrinking research and shrinkers (Epoch 5: Descent)
+- Tier 10: solar system exploration and asteroid mining (Epoch 6: Exploration)
+- Tier 11: star gates and interstellar stations (Epoch 7: Frontier)
+- Tier 12: flux material research and atomic shrinking discovery
+- Tier 13: fragments and rare cloning
+- Tier 14: atomic shrinkers and quantum descent (Epoch 8: Entanglement)
+- Tier 15: quantum stabilizer lattices and field harmonics
 
 ## Enemy and Flux mechanics draft
 
@@ -61,12 +62,12 @@ Each family should eventually specify:
 The next documents worth writing are:
 
 1. A detailed tech tree with narrative justification per node.
-2. A planet-scope design chapter with region and inter-region UX examples.
-3. A station-scope design chapter with interior and exterior module examples.
-4. A frontier-scope design chapter with shuttle routes, asteroid hubs, and gate planning.
-5. An elemental-scope design chapter covering lattice construction, field tuning, and macro-to-micro coupling.
+2. A planet-scope design chapter with region and planet layer UX examples.
+3. An orbit-scope design chapter with orbit and station module examples.
+4. A space-scope design chapter with solar system routes, asteroid hubs, star gates, and galaxy planning.
+5. An element-scope design chapter covering molecular biology, gene editing, quantum construction, field tuning, and macro-to-micro coupling.
 6. A save, sync, and identity document explaining rollback, backup, and clone rules.
-7. A data model for items, machines, regions, stations, routes, minds, and elemental stabilizer structures.
+7. A data model for items, machines, regions, stations, routes, minds, molecular structures, and quantum stabilizer networks.
 
 ## Long-term documentation direction
 

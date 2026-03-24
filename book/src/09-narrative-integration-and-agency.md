@@ -9,8 +9,9 @@ Narrative triggers should unlock mechanics as consequences rather than as arbitr
 - **Pull rails** unlock when demand-aware routing becomes intelligible inside the fiction.
 - **Drone towers** unlock when scale makes manual hauling irrational.
 - **Space elevators** unlock when rockets are insufficient for sustained industrial throughput.
-- **Time dilation** unlocks only after chronotech discovery makes it believable and dangerous.
-- **Elemental descent** unlocks only after the player proves they can capture raw Flux safely enough to bring the problem home and work on it at atomic scale.
+- **Shrinkers** unlock when molecular shrinking research matures in stations, making biological descent physically possible.
+- **Star gates** unlock only after flux stabilization and precursor technology make distance compression believable and dangerous.
+- **Atomic shrinkers** unlock only after the player proves they can capture raw Flux and research atomic-level shrinking at galactic scale.
 
 ## Player choices should have systemic meaning
 
@@ -22,17 +23,19 @@ Examples:
 - heavy time acceleration may attract or intensify Flux pressure
 - preserving precursor sites may slow progress but improve safety and understanding
 - stabilizer placement choices determine which systems remain defensible
-- deciding when to shift effort from macro stabilizers to elemental repair determines whether survival becomes true recovery
+- deciding when to shift effort from macro stabilizers to quantum repair determines whether survival becomes true recovery
+- choosing which planets to explore and which to leave barren shapes the strategic map
 
 ## Agency themes
 
-The player’s agency should widen in a controlled way:
+The player's agency should widen in a controlled way:
 
 - first over a body
 - then over a base
-- then over multiple regions
-- then over stations and routes
-- then over fragments and strategic territory
+- then over multiple regions and a planet
+- then over stations and orbits
+- then over molecular environments
+- then over star systems and galaxy-wide routes
 - then over the smallest structures that keep matter coherent at all
 
 This widening must always feel earned through infrastructure rather than granted by abstract authority.

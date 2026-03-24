@@ -6,110 +6,162 @@ The campaign repeatedly alternates between intimate operation and expanded overs
 
 Caveat: exact numeric thresholds remain unspecified and should be tuned through playtesting.
 
-## Progression table
+## Eight epochs
 
-| Phase | Scope / layer | Story beat that motivates it | Explicit unlock condition | Decisions that matter | Primary risks |
-|---|---|---|---|---|---|
-| One Mind / One Robot | Planetary / region | Awakening; hands returned to matter | Start state | Base location; early ore priorities | Death resets to arrival snapshot before sync |
-| Early robot specializations | Planetary / region | A mind, many shells | Build Chassis Bay | Which chassis to inhabit and when to swap | swap vulnerability; travel time |
-| Primitive factories | Planetary / region | Stupidity that works | Basic belts, inserters, furnaces, assemblers | topology and modular habits | bottlenecks; overproduction; weak power |
-| Electronics + Sync | Planetary / region | Anchor the self | Produce microchips; build Mind Sync Station | sync frequency vs exploration greed | rollback loss |
-| Smart industry + pull rails | Planetary / region | Demand becomes language | Smart module research | upgrade critical lines or rebuild cleanly | logic mistakes and silent starvation |
-| Drone towers | Planetary / region | Hands without minds | Drone Control Tower | where drones replace fixed logistics | high power draw; congestion |
-| Mind control towers | Planetary / inter-region | Presence without walking | Higher-tier comms and compute | which bases become semi-autonomous sectors | signal limits; reduced direct oversight |
-| Planetary photonic network | Planetary / inter-region | Continents become one factory | Beacon construction and transmission research | regional specialization and bandwidth allocation | cascading deficits |
-| Orbital launch and first station | Station / exterior | A second body in orbit | Launch chain and station-printing capability | what remains planetside vs orbital | fragile orbital supply |
-| Station industrialization | Station / interior | Orbit must produce, not just receive | interior modules and industrial packages | station layout philosophy and product focus | cramped throughput and costly mistakes |
-| Elevators, shuttles, asteroid hubs | Frontier / route plus frontier | Industry leaves home | Elevator and Shuttle Bay infrastructure | route topology; hub placement | shuttle losses; docking bottlenecks |
-| Flux crystals and deep-belt mining | Frontier / frontier | The universe has seams | Prospecting and containment tech | risky mining vs safe scaling | rare catastrophic incidents |
-| Portals and time dilation | Frontier / route | Distance collapses; clocks bend | Flux stabilization and precursor chronotech | gate topology; acceleration zones | instability and maintenance burden |
-| Fragments and cloning | Frontier / route and governance | Governance of selves | Mind Replication Chamber and strict prereqs | whether to fork at all; permissions | rogue clone emergence |
-| Dyson swarms and stabilizers | Strategic endgame across macro scopes | Star-scale power; hold the line | megaproject chains | which stars and systems to prioritize | losing regions and routes to Flux pressure |
-| Raw Flux capture and return to Earth | Frontier to elemental transition | The enemy can be carried home as a cure or a catastrophe | Safe capture, containment, and transport chain | where to harvest; how much to risk transporting; what returns to Earth | containment failure; strategic overreach |
-| Shrinking device and first elemental descent | Elemental / lattice | Go inward to repair what scale alone cannot | Build the elemental descent apparatus on Earth | when to commit to descent; which material zones to repair first | unstable insertion; failed anchoring |
-| Elemental stabilizer networks | Elemental / lattice and field | Hold the universe together from the inside | Atomic anchor technology and flux-field tuning | local repair order; field harmonics; macro-to-micro resource allocation | cascading resonance collapse |
+The campaign is structured around eight epochs, each unlocking a new level.
+
+| Epoch | Name | Unlocks | Primary fantasy |
+|---|---|---|---|
+| 1 | Awakening | P1 Region | Factories, belts, drones, basic industry |
+| 2 | Expansion | P2 Planet | Specialized regions, region transport, exploration |
+| 3 | Ascend | O1 Orbit | Build space station, planet-station transport |
+| 4 | Science | O2 Station | Build inside station, space miners, molecular shrinking research |
+| 5 | Descent | E1 Molecule | Biological level: viruses, bacteria, gene editing. Shrinkers in O2 and P1 |
+| 6 | Exploration | S1 Star | Asteroid miners, send stations to planets, solar system management |
+| 7 | Frontier | S2 Galaxy | Star gates, interstellar journeys, flux material, atomic shrinking discovery |
+| 8 | Entanglement | E2 Quantum | Atomic shrinkers inside E1, stabilize flux at its source |
+
+### Notable design choice: Element is split
+
+Unlike other scopes where both layers unlock in sequence, the element scope is split across the campaign:
+
+- E1 (molecule) unlocks at epoch 5, between orbit and space
+- E2 (quantum) unlocks at epoch 8, as the true endgame
+
+This split means molecular descent is a mid-campaign surprise that deepens into the quantum endgame much later. The player has time to integrate molecular capabilities into their expanding industrial empire before the final inward turn.
+
+## Detailed progression
+
+### Epoch 1: Awakening — P1 Region
+
+| Phase | Story beat | Unlock condition | Decisions | Risks |
+|---|---|---|---|---|
+| One mind, one robot | Awakening; hands returned to matter | Start state | Base location; early ore priorities | Death resets to arrival snapshot before sync |
+| Early robot specializations | A mind, many shells | Build Chassis Bay | Which chassis to inhabit and when to swap | Swap vulnerability; travel time |
+| Primitive factories | Stupidity that works | Basic belts, inserters, furnaces, assemblers | Topology and modular habits | Bottlenecks; overproduction; weak power |
+| Electronics + Sync | Anchor the self | Produce microchips; build Mind Sync Station | Sync frequency vs exploration greed | Rollback loss |
+| Smart industry + pull rails | Demand becomes language | Smart module research | Upgrade critical lines or rebuild cleanly | Logic mistakes and silent starvation |
+| Drone towers | Hands without minds | Drone Control Tower | Where drones replace fixed logistics | High power draw; congestion |
+
+### Epoch 2: Expansion — P2 Planet
+
+| Phase | Story beat | Unlock condition | Decisions | Risks |
+|---|---|---|---|---|
+| Mind control towers | Presence without walking | Higher-tier comms and compute | Which bases become semi-autonomous sectors | Signal limits; reduced direct oversight |
+| Planetary photonic network | Continents become one factory | Beacon construction and transmission research | Regional specialization and bandwidth allocation | Cascading deficits |
+| Multiple regions | A world, not just a base | Reach planetary surplus thresholds | Which regions to specialize, which to explore | Overextension; transport saturation |
+
+### Epoch 3: Ascend — O1 Orbit
+
+| Phase | Story beat | Unlock condition | Decisions | Risks |
+|---|---|---|---|---|
+| Orbital launch | A second body in orbit | Launch chain and station-printing capability | What remains planetside vs orbital | Fragile orbital supply |
+| Station construction | Building above the sky | Orbital construction module | Station shape and purpose | Docking bottlenecks; exposure |
+| Planet-station link | Two economies become one | Elevator and shuttle infrastructure | How tightly coupled planet and orbit should be | Shuttle losses; elevator vulnerability |
+
+### Epoch 4: Science — O2 Station
+
+| Phase | Story beat | Unlock condition | Decisions | Risks |
+|---|---|---|---|---|
+| Station industrialization | Orbit must produce, not just receive | Interior modules and industrial packages | Station layout philosophy and product focus | Cramped throughput; costly mistakes |
+| Space miners | Harvest the belt | Space miner construction chain | Which asteroid fields to exploit | Miner losses; route maintenance |
+| Molecular research | Seeing smaller | Advanced research modules | When to commit station capacity to shrinking research | Opportunity cost; slow return |
+
+### Epoch 5: Descent — E1 Molecule
+
+| Phase | Story beat | Unlock condition | Decisions | Risks |
+|---|---|---|---|---|
+| Shrinker construction | Build a door into matter | Molecular shrinking research complete | Where to build shrinkers — P1 regions or O2 stations | High resource cost; entry points are permanent |
+| First molecular descent | Go inward | Shrinker built and activated | Which molecular environment to enter first | Unstable insertion; failed anchoring |
+| Biological systems | Life as terrain | Molecular navigation established | How to use viruses, bacteria, gene editing | Biological cascades; contamination |
+| Molecular stabilizers | Repair from within | Anchor technology at molecular scale | Local repair order; biological tool deployment | Cascade destabilization |
+
+### Epoch 6: Exploration — S1 Star
+
+| Phase | Story beat | Unlock condition | Decisions | Risks |
+|---|---|---|---|---|
+| Solar system access | The star has children | Sufficient orbital and planetary industry | Which orbits to explore first | Overextension; thin supply lines |
+| Asteroid mining | Harvest the deep belt | Prospecting and extraction technology | Risky mining vs safe scaling | Rare catastrophic incidents |
+| Station dispatch | Send industry outward | Surplus station construction | Which planets to send stations to | Expensive one-way commitments |
+| Flux crystals | The universe has seams | Deep-belt prospecting and containment tech | Where to harvest flux | Containment events; instability |
+
+### Epoch 7: Frontier — S2 Galaxy
+
+| Phase | Story beat | Unlock condition | Decisions | Risks |
+|---|---|---|---|---|
+| Interstellar reach | Beyond the home star | First interstellar station journey | Which star to reach first | Years-long commitment; isolation |
+| Star gates | Distance collapses | Flux stabilization and precursor gate technology | Gate topology; which routes deserve compression | Instability; maintenance burden |
+| Flux material | The enemy carried home | Raw flux capture and containment | How much to risk transporting | Containment failure; strategic overreach |
+| Atomic shrinking discovery | Deeper than molecules | Flux material research at galaxy scale | When to commit to E2 research | Slow return; distracts from galactic defense |
+| Fragments and cloning | Governance of selves | Mind Replication Chamber and strict prereqs | Whether to fork at all; permissions | Rogue clone emergence |
+
+### Epoch 8: Entanglement — E2 Quantum
+
+| Phase | Story beat | Unlock condition | Decisions | Risks |
+|---|---|---|---|---|
+| Atomic shrinkers | Build a door into atoms | Atomic shrinking research and E1 infrastructure | Which E1 instances to build atomic shrinkers in | Enormous resource commitment |
+| Quantum descent | The smallest battlefield | Atomic shrinker activated in E1 | Which quantum regions to repair first | Unstable insertion; resonance hazards |
+| Flux stabilization | Hold reality together | Quantum anchor and field technology | Local repair order; field harmonics | Cascading resonance collapse |
+| Endgame networks | The universe, repaired from within | Multiple E2 instances cooperating | Macro-to-micro resource allocation; which regions to save | Not everything can be saved |
 
 ## Pacing logic
 
-### Early campaign
+### Early campaign (epochs 1–2)
 
-The first hour should establish:
+The first hours should establish:
 
 - embodiment as a real mechanic
 - local automation as the core fantasy
 - danger before sync
 - the fact that industrial growth is the only path out of fragility
+- regional thinking and planetary coordination
 
-### Mid campaign
+### Mid campaign (epochs 3–5)
 
 The middle of the game should be dominated by:
 
-- smarter logistics
-- regional coordination
-- the transfer from local mastery to macro responsibility
 - the shock of orbital expansion
+- smarter logistics across planet and station
+- the surprise of molecular descent — the game turns inward for the first time
+- integration of biological capabilities into the broader industrial chain
 
-### Late campaign
+### Late campaign (epochs 6–7)
 
 The late game should shift from optimization toward strategic doctrine:
 
-- where to expand
-- what to defend
-- what to risk
+- where to expand across the star system and galaxy
+- what to defend against the flux front
+- what to risk with interstellar commitments
 - how much autonomy to grant fragments or clones
-- how much infrastructure to commit to stabilizing threatened space
-- when to divert macro-industrial capacity into elemental repair
+- star gates reshaping the entire access model
 
-## Solar-system emphasis before portals
+### Endgame (epoch 8)
 
-The pre-portal interplanetary phase should be long enough to matter.
+The final epoch should feel like a structural revelation:
 
-This is the crucial bridge between local factory simulation and large strategic routing. It teaches the player to think in:
-
-- schedules
-- hubs
-- queueing
-- route resilience
-- external supply dependency
-
-The space elevator and shuttle era should feel like the last purely industrial answer before reality-bending technologies appear.
-
-## Final inversion: bigger to smaller
-
-The campaign should end on a structural reversal.
-
-The player spends most of the game expanding:
-
-- local to regional
-- regional to planetary
-- planetary to orbital
-- orbital to frontier
-- frontier to star-scale stabilization
-
-Then the game reveals that scale alone cannot finish the work. Raw Flux must be captured, returned, and understood deeply enough for the player to enter an elemental operating environment. The final answer is therefore not simply a bigger machine. It is a smaller one, supported by all the bigger ones.
+- after building ever larger systems, the decisive battlefield is the smallest one
+- quantum repair is the only path to true stabilization
+- all previous infrastructure exists to support the elemental endgame
+- the campaign comes full circle: the player who started placing one belt now repairs atomic bonds
 
 ## Progression flowchart
 
 ```mermaid
 flowchart LR
-  A[Awakening: one mind in one primitive robot] --> B[Chassis Bay: early specialized bodies]
+  A[Awakening: one mind, one robot] --> B[Chassis Bay: specialized bodies]
   B --> C[Primitive factories: belts, inserters, assemblers]
-  C --> D[Electronics: microchips and sensors]
-  D --> E[Mind Sync Station: backup synchronization]
-  E --> F[Smart industry: demand-aware machines]
-  F --> G[Pull rails: routed mixed-item conveyors]
-  G --> H[Drone Control Towers: mindless logistics swarms]
-  H --> I[Mind Control Towers: remote regional operation]
-  I --> J[Planetary photonic network: beacon logistics]
-  J --> K[Orbit: space station production modules]
-  K --> L[Solar system logistics: elevators + shuttles + asteroid hubs]
-  L --> M[Asteroid mining: Flux crystals discovered]
-  M --> N[Portals: interplanetary gates mature]
-  N --> O[Time dilation: precursor chronotech fields]
-  O --> P[Late mind events: fragments, rare cloning]
-  P --> Q[Dyson swarms: star-scale power]
-  Q --> R[Flux Stabilizers: macro containment network]
-  R --> S[Raw Flux captured and returned to Earth]
-  S --> T[Elemental descent apparatus built]
-  T --> U[Elemental stabilizer networks repair matter]
+  C --> D[Electronics + Mind Sync Station]
+  D --> E[Smart industry + pull rails + drones]
+  E --> F[Mind Control Towers + photonic network]
+  F --> G[Planet layer: multiple regions]
+  G --> H[Orbit: station construction]
+  H --> I[Station interior: orbital industry]
+  I --> J[Space miners + molecular research]
+  J --> K[Shrinkers: molecular descent E1]
+  K --> L[Solar system: asteroid mining + station dispatch]
+  L --> M[Galaxy: interstellar routes + star gates]
+  M --> N[Flux material + atomic shrinking discovery]
+  N --> O[Fragments and rare cloning]
+  O --> P[Atomic shrinkers: quantum descent E2]
+  P --> Q[Quantum stabilizer networks: repair reality]
 ```

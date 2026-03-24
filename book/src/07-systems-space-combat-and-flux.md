@@ -4,27 +4,28 @@
 
 Once orbit is unlocked, the station becomes the logistics brain and industrial hinge of the solar system.
 
-The station exterior manages:
+The orbit layer (O1) manages:
 
-- docks
+- the orbital view — station and optional planet
+- docks and cargo interfaces
 - solar arrays and exposed power infrastructure
-- cargo interfaces
-- shuttle traffic
+- shuttle and elevator traffic
 - structural expansion
 
-The station interior manages:
+The station layer (O2) manages:
 
-- production sectors
-- module internals
+- production sectors and module internals
 - fabrication of rockets and shuttles
 - refined industrial chains
 - internal logistics and storage
+- space miner construction
+- molecular shrinking research
 
 The station should feel like an industrial body with a skin and organs rather than a menu-driven abstract hub.
 
 ## Shuttle-based asteroid mining
 
-The pre-portal frontier is built around shuttle logistics.
+The pre-gate space expansion is built around shuttle logistics.
 
 Typical loop:
 
@@ -38,7 +39,7 @@ This is a critical learning phase because it teaches the player to reason in rou
 
 ## Space elevators
 
-Space elevators are the major pre-portal logistics fantasy.
+Space elevators are the major pre-gate logistics fantasy.
 
 They should function as extreme infrastructure that links surface industry with orbital stations continuously rather than through only disposable launch events. That makes them distinct from rockets and gives the mid-late game a strong identity before gates appear.
 
@@ -86,16 +87,16 @@ They justify:
 
 - containment mechanics
 - precursor-compatible technologies
-- portal stabilization
+- star gate stabilization
 - later time manipulation systems
 
 They should be high-opportunity, high-risk resources that transform strategic options rather than simply increase output.
 
-Raw Flux should become the key transition material between macro stabilization and elemental repair. It is not enough to power larger projects; it becomes the material and energetic bridge that makes the fourth scope possible.
+Raw Flux should become the key transition material between macro stabilization and elemental repair. It is not enough to power larger projects; it becomes the material and energetic bridge that makes the element scope possible.
 
-## Portals and route-making
+## Star gates and route-making
 
-When portals appear, they should not trivialize logistics. They should redefine it.
+When star gates appear (epoch 7, galaxy layer), they should not trivialize logistics. They should reconfigure it.
 
 Important decisions:
 
@@ -104,31 +105,40 @@ Important decisions:
 - how to defend gate-linked systems
 - what degree of instability is tolerable
 
-The player should still be making industrial choices, just now at strategic graph scale.
+The player should still be making industrial choices, just now at galactic-graph scale.
+
+Star gates fundamentally change planet access: before gates, planets require a station in orbit. After gates, any planet can be reached directly. This transforms the strategic calculus of expansion.
 
 ## Elemental stabilization
 
-At the end of the campaign, the player learns that Dark Flux cannot be fully defeated only by building larger structures around it. Large stabilizers can slow collapse, route pressure, and protect whole regions of space, but they do not by themselves restore matter at the level where physical law is slipping.
+The element scope unfolds in two phases, separated by most of the campaign:
 
-That leads to a new endgame chain:
+### Phase 1: Molecular descent (epoch 5)
+
+The player builds shrinker machines in regions (P1) or stations (O2) and descends to molecular scale. Biological systems — viruses, bacteria, gene editing — become the terrain. This phase introduces new industrial capabilities that feed back into the macro economy.
+
+### Phase 2: Quantum descent (epoch 8)
+
+From within molecule instances, the player builds atomic shrinkers and descends to quantum scale. This is where Dark Flux is finally confronted at its source — atomic bonds repaired, physical constants stabilized, reality reinforced from the inside.
+
+The endgame chain:
 
 1. harvest and contain raw Flux
-2. return it to Earth or another secure core world
-3. build a shrinking and insertion device
-4. descend into an elemental operating layer
+2. research atomic shrinking (galaxy layer)
+3. build atomic shrinkers within E1 molecule instances
+4. descend to E2 quantum
 5. construct local stabilizers and field harmonics that repair reality from within
-
-This is the late-game twist that makes the campaign complete.
 
 ## Endgame infrastructure
 
-Dyson swarms, macro Flux Stabilizers, and elemental stabilizer networks justify the true endgame.
+Dyson swarms, macro Flux Stabilizers, star gate networks, and quantum stabilizer lattices justify the true endgame.
 
 By this point, factories have become civilizational weapons:
 
 - stars are exploited as power sources
 - stabilizer networks become the defense line against regional collapse
-- elemental stabilizer lattices turn temporary defense into lasting repair
-- route choice determines who survives
+- quantum stabilizer lattices turn temporary defense into lasting repair
+- star gate topology determines who survives
+- the player manages nested repair networks from galaxy scale down to atomic scale
 
 The endgame should feel like the culmination of every earlier lesson about throughput, specialization, power, and risk.

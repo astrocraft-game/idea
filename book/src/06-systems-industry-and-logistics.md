@@ -70,9 +70,9 @@ Main tradeoff:
 | Pull rails | Medium to high | Medium | Medium | Medium | modular mixed-item networks | bad logic can starve systems quietly |
 | Drone networks | Medium and scalable | Variable | Medium to high | High | flexible delivery and construction | power hunger and hub congestion |
 
-## Regional and continental logistics
+## Regional and planetary logistics
 
-The inter-region planetary layer is not just a bigger transport map. It is where the player begins to think in specialization and macro accounting.
+The planet layer (P2) is not just a bigger transport map. It is where the player begins to think in specialization and macro accounting.
 
 Important mechanics at this layer:
 

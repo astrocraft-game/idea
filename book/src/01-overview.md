@@ -8,7 +8,7 @@ The design must feel coherent at every scale. That coherence comes from one rule
 
 > The player keeps solving the same industrial and strategic problems, but at larger physical scales and with higher stakes.
 
-The early game is not a disposable tutorial. It is the seed form of the entire campaign. The player begins by mining ore, moving items, building machines, and surviving with limited embodiment. Later, those same concerns become regional shipping, orbital construction, shuttle scheduling, asteroid extraction, gate routing, and star-scale energy allocation.
+The early game is not a disposable tutorial. It is the seed form of the entire campaign. The player begins by mining ore, moving items, building machines, and surviving with limited embodiment. Later, those same concerns become regional shipping, orbital construction, shuttle scheduling, asteroid extraction, star gate routing, molecular gene editing, and atomic-scale energy allocation.
 
 ## Design pillars
 
@@ -20,8 +20,9 @@ Mechanics should unlock when the story makes them inevitable.
 - remote operation appears when communications and control infrastructure become robust
 - orbital industry appears when planetary industry stops being enough
 - interplanetary routing appears when the player must reach resources and positions that cannot be supplied from one world
-- gates and time manipulation appear only after precursor and Flux-related breakthroughs
-- elemental descent appears only after raw Flux can be captured, contained, and translated into an inward stabilization program
+- star gates appear only after flux-related breakthroughs at galactic scale
+- molecular descent appears when shrinking research matures in stations
+- quantum repair appears only after raw Flux can be captured, contained, and understood at atomic level
 - cloning remains late because the fiction should treat it as dangerous, not routine
 
 ### 2. Embodiment matters
@@ -34,7 +35,7 @@ The game should not spend too long pretending to be a manual survival game. The 
 
 ### 4. Scale should expand, not fracture
 
-The game is intentionally broad, but it should never feel like disconnected minigames. Planetary logistics, station management, frontier expansion, and elemental stabilization should all share the same mental model:
+The game is intentionally broad, but it should never feel like disconnected minigames. Planetary logistics, station management, space expansion, and elemental stabilization should all share the same mental model:
 
 - production nodes
 - transport links
@@ -57,10 +58,10 @@ Dark Flux is not just lore wallpaper. It justifies:
 
 The campaign grows through four major working scopes:
 
-1. Planetary industry
-2. Orbital and station industry
-3. Interplanetary and later interstellar expansion
-4. Elemental stabilization inside matter
+1. Planet — local industry and planetary coordination
+2. Orbit — station construction and orbital industry
+3. Space — solar system management and galactic expansion
+4. Element — molecular biology and atomic-level flux repair
 
 Each scope has two operating layers. That eight-layer structure becomes the primary backbone of the design and of the user experience.
 
@@ -68,13 +69,13 @@ Each scope has two operating layers. That eight-layer structure becomes the prim
 
 The scope model solves a structural problem common in large simulation games: expansion often introduces new maps and screens that behave like separate products. Here, each larger scope should feel like a strategic extension of the previous one.
 
-At the planetary level, the player learns local production and then macro distribution.
+At the planet level, the player learns local production and then planetary distribution.
 
-At the station level, the player learns external infrastructure and internal industrial orchestration.
+At the orbit level, the player learns orbital infrastructure and industrial orchestration.
 
-At the frontier level, the player learns route creation and then exploitation of distant opportunities.
+At the space level, the player learns solar system management and then galactic-scale routing and defense.
 
-At the elemental level, the player learns local lattice repair and then field-scale propagation of stabilization through matter itself.
+At the element level, the player learns molecular construction and then quantum-scale flux repair.
 
 That is the intended rhythm of the whole game:
 

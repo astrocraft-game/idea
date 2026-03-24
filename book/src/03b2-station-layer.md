@@ -1,6 +1,6 @@
-# Station Interior Layer
+# Station Layer
 
-The station interior layer is where the orbital shell becomes an industrial organism.
+The station layer (O2) is where the orbital shell becomes an industrial organism.
 
 ## Primary purpose
 
@@ -15,6 +15,8 @@ The answer should vary by campaign phase, but the station interior generally sup
 - dense advanced manufacturing
 - expedition staging
 - specialized processing chains that benefit from orbital context
+- space miner construction
+- molecular shrinking research (epoch 4 — lays groundwork for E1)
 
 ## Desired feel
 
@@ -37,10 +39,12 @@ The station interior should not simply duplicate a planet factory. It should spe
 - launch-related manufacturing
 - route-critical components
 - frontier support packages
+- space miner fleet production
+- molecular research facilities
 
 ### Tie the inside to the outside
 
-Interior planning must depend on exterior decisions. If the station exterior has poor docking, insufficient power, or weak storage interfaces, interior optimization should hit real limits.
+Interior planning must depend on exterior decisions made at the orbit layer (O1). If the station has poor docking, insufficient power, or weak storage interfaces, interior optimization should hit real limits.
 
 ### Make module identity strong
 
@@ -51,6 +55,7 @@ A player should be able to think in terms like:
 - cargo spine
 - refinery core
 - drone operations deck
+- shrinker research lab
 
 These identities help the station feel like a designed machine rather than a generic tile grid.
 
@@ -58,7 +63,7 @@ These identities help the station feel like a designed machine rather than a gen
 
 ### Production loop
 
-1. define the station’s current industrial purpose
+1. define the station's current industrial purpose
 2. allocate module space to the required chains
 3. connect inputs, buffers, and outputs
 4. tune for reliability under orbital constraints
@@ -70,9 +75,15 @@ These identities help the station feel like a designed machine rather than a gen
 3. launch or transfer them to shuttles and route networks
 4. recover and refill the station after each major dispatch cycle
 
+## Shrinker entry points
+
+From epoch 5 onward, the station can host shrinker machines that allow descent into E1 molecule instances. These shrinkers are built within the station interior and serve as navigation portals to the molecular layer.
+
+This means the station is not just a gateway to space — it can also be a gateway inward, into matter itself.
+
 ## Relationship to later play
 
-The station interior becomes the industrial heart of frontier expansion.
+The station interior becomes the industrial heart of space expansion.
 
 Without a functioning station interior, the player cannot reliably:
 
@@ -80,3 +91,4 @@ Without a functioning station interior, the player cannot reliably:
 - feed asteroid operations
 - seed new orbital footholds
 - support gate-building campaigns
+- conduct molecular research necessary for elemental descent

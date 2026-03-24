@@ -1,6 +1,6 @@
 # Region Layer
 
-The region layer is the most tactile layer in the entire game. It is where the player experiences matter directly through machines, belts, chassis, terrain, and local hazards.
+The region layer (P1) is the most tactile layer in the entire game. It is where the player experiences matter directly through machines, belts, chassis, terrain, and local hazards.
 
 ## Primary purpose
 
@@ -28,6 +28,7 @@ Typical systems in the region layer:
 - repair and maintenance loops
 - defensive structures and alert beacons
 - chassis bays and sync stations
+- shrinker machines (epoch 5+) that serve as entry points to E1 molecule instances
 
 ## Desired feel
 
@@ -105,5 +106,6 @@ Later, the player may visit a region to:
 - upgrade a specialized industrial district
 - repair a strategic bottleneck
 - secure a threatened Sync Station
-- add exports for orbital or frontier demand
+- add exports for orbital or space demand
 - recover after a raid, storm, or logistics collapse
+- build and maintain shrinker machines for molecular descent
