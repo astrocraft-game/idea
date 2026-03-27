@@ -11,7 +11,7 @@ The design is organized around **four major scopes**, and each scope contains **
 | Planet | P1 Region — local factory floor | P2 Planet — multiple regions on one world | Turn local industry into a planetary network |
 | Orbit | O1 Orbit — orbital view with station and optional planet | O2 Station — station internals | Turn orbit into a productive industrial body |
 | Space | S1 Star — solar system with asteroids and routes | S2 Galaxy — full galaxy view and star gates | Turn distance into infrastructure |
-| Element | E1 Molecule — molecular-level construction and biology | E2 Quantum — atomic-level stabilization and flux repair | Turn matter itself into a repairable industrial system |
+| Element | E1 Cell — cellular-level construction and biology | E2 Quantum — atomic-level stabilization and flux repair | Turn matter itself into a repairable industrial system |
 
 ## Why this structure is better than a flat list of scales
 
@@ -25,7 +25,7 @@ For example:
 - the station layer is about turning the station into a functioning factory
 - the star layer is about deciding where movement and expansion should happen within a solar system
 - the galaxy layer is about exploiting distant opportunities, star gates, and creating the next foothold
-- the molecule layer is about direct biological and molecular-scale construction and repair
+- the cell layer is about direct biological and cellular-scale construction and repair
 - the quantum layer is about propagating atomic stabilization through unstable matter
 
 That means each scope has an inner operational layer and an outer organizational layer, but the exact character of those layers changes with the fiction.
@@ -91,7 +91,7 @@ Primary concerns:
 - specialized refinement and advanced manufacturing
 - storage, drones, and internal transport
 - space miner construction
-- molecular shrinking research (epoch 4 — unlocks E1 later)
+- cellular shrinking research (epoch 4 — unlocks E1 later)
 
 The station should not feel like "just another factory map." The station interior should feel constrained by orbital design decisions. Internal efficiency depends on external capacity and vice versa.
 
@@ -126,22 +126,22 @@ Star gates (unlocked at this epoch) allow direct travel to any planet or orbit w
 
 ## Scope 4: Element
 
-### Layer E1: Molecule
+### Layer E1: Cell
 
-The molecule layer is entered through shrinkers built in stations (O2) or regions (P1).
+The cell layer is entered through shrinkers built in stations (O2) or regions (P1).
 
 This is where the game turns inward. Instead of building outward into space, the player shrinks into matter itself. At this scale:
 
-- biological systems become the terrain — viruses, bacteria, molecular structures
-- gene editing and molecular construction become the core verbs
-- the player builds stabilizer structures at molecular scale
+- biological systems become the terrain — viruses, bacteria, cellular structures
+- gene editing and cellular construction become the core verbs
+- the player builds stabilizer structures at cellular scale
 - shrinker machines in the macro world serve as entry points
 
 This layer should feel strange but still recognizably industrial. The player is still solving placement, routing, reinforcement, and stabilization problems. The difference is that the terrain is now living matter.
 
 ### Layer E2: Quantum
 
-The quantum layer is the deepest level — entered from within an E1 molecule instance.
+The quantum layer is the deepest level — entered from within an E1 cell instance.
 
 Primary concerns:
 
@@ -151,7 +151,7 @@ Primary concerns:
 - coupling local atomic repairs into wider stabilization networks
 - preventing overload, inversion, or cascade collapse
 
-If the molecule layer is about constructing order at biological scale, the quantum layer is about making that order hold at the fundamental level where physical law itself is slipping.
+If the cell layer is about constructing order at biological scale, the quantum layer is about making that order hold at the fundamental level where physical law itself is slipping.
 
 This is where Dark Flux is finally confronted directly.
 
@@ -164,11 +164,11 @@ S2 Galaxy — solar systems as clickable objects
  └─ S1 Star — orbits around a star, asteroid belts
       └─ O1 Orbit — station + optional planet below
            ├─ O2 Station — station internals
-           │    └─ E1 Molecule (optional, shrinker needed)
+           │    └─ E1 Cell (optional, shrinker needed)
            │         └─ E2 Quantum
            └─ P2 Planet (optional, 0 or 1 per orbit)
                 └─ P1 Region (0..N per planet, 0 = unexplored)
-                     └─ E1 Molecule (optional, shrinker needed)
+                     └─ E1 Cell (optional, shrinker needed)
                           └─ E2 Quantum
 ```
 
@@ -181,9 +181,9 @@ S2 Galaxy — solar systems as clickable objects
 | O1 Orbit | O2 Station | exactly 1 (always) |
 | O1 Orbit | P2 Planet | 0 or 1 |
 | P2 Planet | P1 Region | 0..N (0 = unexplored) |
-| P1 Region | E1 Molecule | 0..N (shrinker needed) |
-| O2 Station | E1 Molecule | 0..N (shrinker needed) |
-| E1 Molecule | E2 Quantum | 0..N (atomic shrinker needed) |
+| P1 Region | E1 Cell | 0..N (shrinker needed) |
+| O2 Station | E1 Cell | 0..N (shrinker needed) |
+| E1 Cell | E2 Quantum | 0..N (atomic shrinker needed) |
 
 ### Orbit composition rules
 
@@ -207,7 +207,7 @@ After star gates (epoch 7+), star gates from S2 allow direct travel to any plane
 | Station | Orbit Secondary | O2 | Interior of the space station |
 | Planet | Planet Secondary | P2 | Planet surface with 0..N regions |
 | Region | Planet Primary | P1 | Machines, resources, belts, mind disk |
-| Molecule | Element Primary | E1 | Molecular-level biological construction |
+| Cell | Element Primary | E1 | Cellular-level biological construction |
 | Quantum | Element Secondary | E2 | Atomic-level flux stabilization |
 
 ### Key navigation rules
@@ -236,14 +236,14 @@ Example:
 3. Unlock planet-wide transport and specialization (P2).
 4. Use planetary scale to support launch and orbital construction (O1).
 5. Enter the station interior and build new local industry there (O2).
-6. Research molecular shrinking in the station.
-7. Build shrinkers and descend into molecular terrain (E1).
+6. Research cellular shrinking in the station.
+7. Build shrinkers and descend into cellular terrain (E1).
 
 The same pattern then repeats into space play (S1, S2), and finally the deepest inversion:
 
 1. Build civilization-scale stabilizer networks.
 2. Discover that macro stabilization is not enough.
-3. Enter existing molecule instances and build atomic shrinkers.
+3. Enter existing cell instances and build atomic shrinkers.
 4. Descend to quantum level (E2) and repair reality from the inside.
 
 ## Design constraint

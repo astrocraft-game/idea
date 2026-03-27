@@ -16,7 +16,7 @@ The answer should vary by campaign phase, but the station interior generally sup
 - expedition staging
 - specialized processing chains that benefit from orbital context
 - space miner construction
-- molecular shrinking research (epoch 4 — lays groundwork for E1)
+- cellular shrinking research (epoch 4 — lays groundwork for E1)
 
 ## Desired feel
 
@@ -40,7 +40,7 @@ The station interior should not simply duplicate a planet factory. It should spe
 - route-critical components
 - frontier support packages
 - space miner fleet production
-- molecular research facilities
+- cellular research facilities
 
 ### Tie the inside to the outside
 
@@ -77,7 +77,7 @@ These identities help the station feel like a designed machine rather than a gen
 
 ## Shrinker entry points
 
-From epoch 5 onward, the station can host shrinker machines that allow descent into E1 molecule instances. These shrinkers are built within the station interior and serve as navigation portals to the molecular layer.
+From epoch 5 onward, the station can host shrinker machines that allow descent into E1 cell instances. These shrinkers are built within the station interior and serve as navigation portals to the cellular layer.
 
 This means the station is not just a gateway to space — it can also be a gateway inward, into matter itself.
 
@@ -91,4 +91,4 @@ Without a functioning station interior, the player cannot reliably:
 - feed asteroid operations
 - seed new orbital footholds
 - support gate-building campaigns
-- conduct molecular research necessary for elemental descent
+- conduct cellular research necessary for elemental descent

@@ -15,8 +15,8 @@ The campaign is structured around eight epochs, each unlocking a new level.
 | 1 | Awakening | P1 Region | Factories, belts, drones, basic industry |
 | 2 | Expansion | P2 Planet | Specialized regions, region transport, exploration |
 | 3 | Ascend | O1 Orbit | Build space station, planet-station transport |
-| 4 | Science | O2 Station | Build inside station, space miners, molecular shrinking research |
-| 5 | Descent | E1 Molecule | Biological level: viruses, bacteria, gene editing. Shrinkers in O2 and P1 |
+| 4 | Science | O2 Station | Build inside station, space miners, cellular shrinking research |
+| 5 | Descent | E1 Cell | Biological level: viruses, bacteria, gene editing. Shrinkers in O2 and P1 |
 | 6 | Exploration | S1 Star | Asteroid miners, send stations to planets, solar system management |
 | 7 | Frontier | S2 Galaxy | Star gates, interstellar journeys, flux material, atomic shrinking discovery |
 | 8 | Entanglement | E2 Quantum | Atomic shrinkers inside E1, stabilize flux at its source |
@@ -25,10 +25,10 @@ The campaign is structured around eight epochs, each unlocking a new level.
 
 Unlike other scopes where both layers unlock in sequence, the element scope is split across the campaign:
 
-- E1 (molecule) unlocks at epoch 5, between orbit and space
+- E1 (cell) unlocks at epoch 5, between orbit and space
 - E2 (quantum) unlocks at epoch 8, as the true endgame
 
-This split means molecular descent is a mid-campaign surprise that deepens into the quantum endgame much later. The player has time to integrate molecular capabilities into their expanding industrial empire before the final inward turn.
+This split means cellular descent is a mid-campaign surprise that deepens into the quantum endgame much later. The player has time to integrate cellular capabilities into their expanding industrial empire before the final inward turn.
 
 ## Detailed progression
 
@@ -65,16 +65,16 @@ This split means molecular descent is a mid-campaign surprise that deepens into 
 |---|---|---|---|---|
 | Station industrialization | Orbit must produce, not just receive | Interior modules and industrial packages | Station layout philosophy and product focus | Cramped throughput; costly mistakes |
 | Space miners | Harvest the belt | Space miner construction chain | Which asteroid fields to exploit | Miner losses; route maintenance |
-| Molecular research | Seeing smaller | Advanced research modules | When to commit station capacity to shrinking research | Opportunity cost; slow return |
+| Cellular research | Seeing smaller | Advanced research modules | When to commit station capacity to shrinking research | Opportunity cost; slow return |
 
-### Epoch 5: Descent — E1 Molecule
+### Epoch 5: Descent — E1 Cell
 
 | Phase | Story beat | Unlock condition | Decisions | Risks |
 |---|---|---|---|---|
-| Shrinker construction | Build a door into matter | Molecular shrinking research complete | Where to build shrinkers — P1 regions or O2 stations | High resource cost; entry points are permanent |
-| First molecular descent | Go inward | Shrinker built and activated | Which molecular environment to enter first | Unstable insertion; failed anchoring |
-| Biological systems | Life as terrain | Molecular navigation established | How to use viruses, bacteria, gene editing | Biological cascades; contamination |
-| Molecular stabilizers | Repair from within | Anchor technology at molecular scale | Local repair order; biological tool deployment | Cascade destabilization |
+| Shrinker construction | Build a door into matter | Cellular shrinking research complete | Where to build shrinkers — P1 regions or O2 stations | High resource cost; entry points are permanent |
+| First cellular descent | Go inward | Shrinker built and activated | Which cellular environment to enter first | Unstable insertion; failed anchoring |
+| Biological systems | Life as terrain | Cellular navigation established | How to use viruses, bacteria, gene editing | Biological cascades; contamination |
+| Cellular stabilizers | Repair from within | Anchor technology at cellular scale | Local repair order; biological tool deployment | Cascade destabilization |
 
 ### Epoch 6: Exploration — S1 Star
 
@@ -92,7 +92,7 @@ This split means molecular descent is a mid-campaign surprise that deepens into 
 | Interstellar reach | Beyond the home star | First interstellar station journey | Which star to reach first | Years-long commitment; isolation |
 | Star gates | Distance collapses | Flux stabilization and precursor gate technology | Gate topology; which routes deserve compression | Instability; maintenance burden |
 | Flux material | The enemy carried home | Raw flux capture and containment | How much to risk transporting | Containment failure; strategic overreach |
-| Atomic shrinking discovery | Deeper than molecules | Flux material research at galaxy scale | When to commit to E2 research | Slow return; distracts from galactic defense |
+| Atomic shrinking discovery | Deeper than cells | Flux material research at galaxy scale | When to commit to E2 research | Slow return; distracts from galactic defense |
 | Fragments and cloning | Governance of selves | Mind Replication Chamber and strict prereqs | Whether to fork at all; permissions | Rogue clone emergence |
 
 ### Epoch 8: Entanglement — E2 Quantum
@@ -122,7 +122,7 @@ The middle of the game should be dominated by:
 
 - the shock of orbital expansion
 - smarter logistics across planet and station
-- the surprise of molecular descent — the game turns inward for the first time
+- the surprise of cellular descent — the game turns inward for the first time
 - integration of biological capabilities into the broader industrial chain
 
 ### Late campaign (epochs 6–7)
@@ -156,8 +156,8 @@ flowchart LR
   F --> G[Planet layer: multiple regions]
   G --> H[Orbit: station construction]
   H --> I[Station interior: orbital industry]
-  I --> J[Space miners + molecular research]
-  J --> K[Shrinkers: molecular descent E1]
+  I --> J[Space miners + cellular research]
+  J --> K[Shrinkers: cellular descent E1]
   K --> L[Solar system: asteroid mining + station dispatch]
   L --> M[Galaxy: interstellar routes + star gates]
   M --> N[Flux material + atomic shrinking discovery]

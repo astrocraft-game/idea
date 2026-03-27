@@ -75,7 +75,7 @@ From there the campaign broadens:
 - star gates reshape strategic distance
 - cloning and fragments threaten governance itself
 - Dyson swarms and Flux stabilizers turn industry into a galactic defense project
-- molecular descent reveals biological systems as a new industrial terrain
+- cellular descent reveals biological systems as a new industrial terrain
 - raw Flux capture and atomic shrinking turn the player toward the smallest scale of all
 - quantum repair reveals that cosmic repair requires atomic construction as well as megastructures
 

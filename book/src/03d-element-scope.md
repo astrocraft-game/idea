@@ -18,8 +18,8 @@ The player discovers that Dark Flux cannot be fully stabilized only from astrono
 
 The element scope is unique because it is **split across the campaign progression**:
 
-- **E1 Molecule** (epoch 5): the player builds shrinker machines in stations (O2) or regions (P1) and descends to molecular scale. This layer is about biological systems — viruses, bacteria, molecular structures, gene editing.
-- **E2 Quantum** (epoch 8): from within a molecule instance, the player builds atomic shrinkers and descends to quantum scale. This is where Dark Flux is finally confronted at its source — atomic instability repaired through precision construction.
+- **E1 Cell** (epoch 5): the player builds shrinker machines in stations (O2) or regions (P1) and descends to cellular scale. This layer is about biological systems — viruses, bacteria, cellular structures, gene editing.
+- **E2 Quantum** (epoch 8): from within a cell instance, the player builds atomic shrinkers and descends to quantum scale. This is where Dark Flux is finally confronted at its source — atomic instability repaired through precision construction.
 
 This split means the element scope is not a single late-game zone. It appears mid-campaign (epoch 5) as a new frontier that deepens much later (epoch 8) into the true endgame.
 
@@ -28,7 +28,7 @@ This split means the element scope is not a single late-game zone. It appears mi
 The fantasy of the element scope is:
 
 - descend into the fabric of matter
-- treat molecules and atoms as industrial terrain
+- treat cells and atoms as industrial terrain
 - repair reality through construction at the smallest meaningful scales
 - prove that the final answer to cosmic collapse is not only bigger infrastructure, but deeper precision
 
@@ -46,7 +46,7 @@ The game has already taught the player that:
 The element scope takes those lessons and reframes them:
 
 - belts become channels
-- regions become molecular lattices
+- regions become cellular lattices
 - route planning becomes field propagation
 - megaproject stabilization becomes atomic repair
 
@@ -54,14 +54,14 @@ This is not a new game. It is the same game translated into radically different 
 
 ## Entry points
 
-E1 molecule instances are entered through **shrinker machines** built in:
+E1 cell instances are entered through **shrinker machines** built in:
 
 - **P1 regions** — shrinkers built on the factory floor of a region
 - **O2 stations** — shrinkers built inside a space station
 
 Each shrinker creates a new navigable E1 instance. The player clicks the shrinker entity and chooses "Enter" to descend.
 
-E2 quantum instances are entered from within E1, through **atomic shrinker machines** built at molecular scale.
+E2 quantum instances are entered from within E1, through **atomic shrinker machines** built at cellular scale.
 
 ## Endgame function
 

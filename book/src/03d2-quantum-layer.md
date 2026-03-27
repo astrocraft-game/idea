@@ -4,7 +4,7 @@ The quantum layer (E2) is the deepest level in the game — the atomic scale whe
 
 ## Primary purpose
 
-If the molecule layer is about biological construction and molecular repair, the quantum layer is about how stabilization holds at the fundamental level where physical law itself is becoming unreliable.
+If the cell layer is about biological construction and cellular repair, the quantum layer is about how stabilization holds at the fundamental level where physical law itself is becoming unreliable.
 
 This layer handles:
 
@@ -16,13 +16,13 @@ This layer handles:
 
 ## How to reach this layer
 
-The quantum layer is entered from within an E1 molecule instance through **atomic shrinker machines** built at molecular scale.
+The quantum layer is entered from within an E1 cell instance through **atomic shrinker machines** built at cellular scale.
 
 The progression:
 
 1. reach epoch 8 (entanglement)
-2. enter an E1 molecule instance (via shrinker in P1 or O2)
-3. build an atomic shrinker within the molecular environment
+2. enter an E1 cell instance (via shrinker in P1 or O2)
+3. build an atomic shrinker within the cellular environment
 4. descend to E2 quantum
 
 This means E2 sits at the very bottom of the navigation tree — the deepest point the player can reach.
@@ -85,7 +85,7 @@ The player should feel that they are operating on patterns and forces rather tha
 
 ## Why this layer matters
 
-Without the quantum layer, the element scope would remain too shallow. The molecule layer alone cannot answer the game's central question: can Dark Flux be truly repaired, or only contained?
+Without the quantum layer, the element scope would remain too shallow. The cell layer alone cannot answer the game's central question: can Dark Flux be truly repaired, or only contained?
 
 The quantum layer gives the fourth scope its deepest strategic dimension, just as the planet, orbit, and star layers give strategic shape to the earlier scopes.
 

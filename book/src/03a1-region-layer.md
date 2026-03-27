@@ -28,7 +28,7 @@ Typical systems in the region layer:
 - repair and maintenance loops
 - defensive structures and alert beacons
 - chassis bays and sync stations
-- shrinker machines (epoch 5+) that serve as entry points to E1 molecule instances
+- shrinker machines (epoch 5+) that serve as entry points to E1 cell instances
 
 ## Desired feel
 
@@ -108,4 +108,4 @@ Later, the player may visit a region to:
 - secure a threatened Sync Station
 - add exports for orbital or space demand
 - recover after a raid, storm, or logistics collapse
-- build and maintain shrinker machines for molecular descent
+- build and maintain shrinker machines for cellular descent

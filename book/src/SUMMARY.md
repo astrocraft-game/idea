@@ -13,7 +13,7 @@
   - [Star Layer](./03c1-star-layer.md)
   - [Galaxy Layer](./03c2-galaxy-layer.md)
 - [Element Scope](./03d-element-scope.md)
-  - [Molecule Layer](./03d1-molecule-layer.md)
+  - [Cell Layer](./03d1-molecule-layer.md)
   - [Quantum Layer](./03d2-quantum-layer.md)
 - [Campaign Progression](./04-campaign-progression.md)
 - [Systems: Mind And Embodiment](./05-systems-mind-and-embodiment.md)

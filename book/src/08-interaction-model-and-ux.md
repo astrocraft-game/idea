@@ -79,7 +79,7 @@ Important tools:
 - fast switch between interior sectors
 - internal transport overlays
 - queue and capacity panels for shipyard production
-- shrinker status and molecular descent readiness
+- shrinker status and cellular descent readiness
 
 ## Scope 3: Space
 
@@ -121,19 +121,19 @@ Important tools:
 
 ## Scope 4: Element
 
-### Molecule layer (E1) UX
+### Cell layer (E1) UX
 
 Core verbs:
 
-- scan molecular environments
-- place molecular anchors and stabilizer structures
+- scan cellular environments
+- place cellular anchors and stabilizer structures
 - edit gene sequences
 - manage biological tools and organisms
 - build atomic shrinkers (epoch 8)
 
 Important tools:
 
-- molecular structure overlay
+- cellular structure overlay
 - biological system status indicators
 - contamination and fracture map
 - anchor stability indicators

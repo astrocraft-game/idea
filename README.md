@@ -6,7 +6,7 @@ At the highest level, the game is about an ascended human mind in a **Mind Disk*
 
 ```
 S2 Galaxy → S1 Star → O1 Orbit → O2 Station / P2 Planet
-    → P1 Region → E1 Molecule → E2 Quantum
+    → P1 Region → E1 Cell → E2 Quantum
 ```
 
 Navigation is entity-driven: click an entity → "Enter" to go deeper, back button to go up.

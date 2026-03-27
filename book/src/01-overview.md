@@ -8,7 +8,7 @@ The design must feel coherent at every scale. That coherence comes from one rule
 
 > The player keeps solving the same industrial and strategic problems, but at larger physical scales and with higher stakes.
 
-The early game is not a disposable tutorial. It is the seed form of the entire campaign. The player begins by mining ore, moving items, building machines, and surviving with limited embodiment. Later, those same concerns become regional shipping, orbital construction, shuttle scheduling, asteroid extraction, star gate routing, molecular gene editing, and atomic-scale energy allocation.
+The early game is not a disposable tutorial. It is the seed form of the entire campaign. The player begins by mining ore, moving items, building machines, and surviving with limited embodiment. Later, those same concerns become regional shipping, orbital construction, shuttle scheduling, asteroid extraction, star gate routing, cellular gene editing, and atomic-scale energy allocation.
 
 ## Design pillars
 
@@ -21,7 +21,7 @@ Mechanics should unlock when the story makes them inevitable.
 - orbital industry appears when planetary industry stops being enough
 - interplanetary routing appears when the player must reach resources and positions that cannot be supplied from one world
 - star gates appear only after flux-related breakthroughs at galactic scale
-- molecular descent appears when shrinking research matures in stations
+- cellular descent appears when shrinking research matures in stations
 - quantum repair appears only after raw Flux can be captured, contained, and understood at atomic level
 - cloning remains late because the fiction should treat it as dangerous, not routine
 
@@ -61,7 +61,7 @@ The campaign grows through four major working scopes:
 1. Planet — local industry and planetary coordination
 2. Orbit — station construction and orbital industry
 3. Space — solar system management and galactic expansion
-4. Element — molecular biology and atomic-level flux repair
+4. Element — cellular biology and atomic-level flux repair
 
 Each scope has two operating layers. That eight-layer structure becomes the primary backbone of the design and of the user experience.
 
@@ -75,7 +75,7 @@ At the orbit level, the player learns orbital infrastructure and industrial orch
 
 At the space level, the player learns solar system management and then galactic-scale routing and defense.
 
-At the element level, the player learns molecular construction and then quantum-scale flux repair.
+At the element level, the player learns cellular construction and then quantum-scale flux repair.
 
 That is the intended rhythm of the whole game:
 

@@ -19,7 +19,7 @@ The station layer (O2) manages:
 - refined industrial chains
 - internal logistics and storage
 - space miner construction
-- molecular shrinking research
+- cellular shrinking research
 
 The station should feel like an industrial body with a skin and organs rather than a menu-driven abstract hub.
 
@@ -113,19 +113,19 @@ Star gates fundamentally change planet access: before gates, planets require a s
 
 The element scope unfolds in two phases, separated by most of the campaign:
 
-### Phase 1: Molecular descent (epoch 5)
+### Phase 1: Cellular descent (epoch 5)
 
-The player builds shrinker machines in regions (P1) or stations (O2) and descends to molecular scale. Biological systems — viruses, bacteria, gene editing — become the terrain. This phase introduces new industrial capabilities that feed back into the macro economy.
+The player builds shrinker machines in regions (P1) or stations (O2) and descends to cellular scale. Biological systems — viruses, bacteria, gene editing — become the terrain. This phase introduces new industrial capabilities that feed back into the macro economy.
 
 ### Phase 2: Quantum descent (epoch 8)
 
-From within molecule instances, the player builds atomic shrinkers and descends to quantum scale. This is where Dark Flux is finally confronted at its source — atomic bonds repaired, physical constants stabilized, reality reinforced from the inside.
+From within cell instances, the player builds atomic shrinkers and descends to quantum scale. This is where Dark Flux is finally confronted at its source — atomic bonds repaired, physical constants stabilized, reality reinforced from the inside.
 
 The endgame chain:
 
 1. harvest and contain raw Flux
 2. research atomic shrinking (galaxy layer)
-3. build atomic shrinkers within E1 molecule instances
+3. build atomic shrinkers within E1 cell instances
 4. descend to E2 quantum
 5. construct local stabilizers and field harmonics that repair reality from within
 

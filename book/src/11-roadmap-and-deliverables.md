@@ -33,7 +33,7 @@ A one-page initial tech tree aligned with the eight epochs:
 - Tier 6: planetary photonic beacons
 - Tier 7: orbit launch and station modules (Epoch 3: Ascend)
 - Tier 8: station interior industry, space miners (Epoch 4: Science)
-- Tier 9: molecular shrinking research and shrinkers (Epoch 5: Descent)
+- Tier 9: cellular shrinking research and shrinkers (Epoch 5: Descent)
 - Tier 10: solar system exploration and asteroid mining (Epoch 6: Exploration)
 - Tier 11: star gates and interstellar stations (Epoch 7: Frontier)
 - Tier 12: flux material research and atomic shrinking discovery
@@ -65,9 +65,9 @@ The next documents worth writing are:
 2. A planet-scope design chapter with region and planet layer UX examples.
 3. An orbit-scope design chapter with orbit and station module examples.
 4. A space-scope design chapter with solar system routes, asteroid hubs, star gates, and galaxy planning.
-5. An element-scope design chapter covering molecular biology, gene editing, quantum construction, field tuning, and macro-to-micro coupling.
+5. An element-scope design chapter covering cellular biology, gene editing, quantum construction, field tuning, and macro-to-micro coupling.
 6. A save, sync, and identity document explaining rollback, backup, and clone rules.
-7. A data model for items, machines, regions, stations, routes, minds, molecular structures, and quantum stabilizer networks.
+7. A data model for items, machines, regions, stations, routes, minds, cellular structures, and quantum stabilizer networks.
 
 ## Long-term documentation direction
 
