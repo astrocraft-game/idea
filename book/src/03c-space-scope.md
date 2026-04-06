@@ -2,12 +2,12 @@
 
 The space scope is where distance becomes the main design material.
 
-This scope covers everything beyond a single orbit — solar system management, asteroid exploitation, interstellar travel, strategic route planning, and eventually the infrastructure that makes true galactic-scale action possible.
+This scope covers everything beyond a single orbit — solar system management, asteroid exploitation, interstellar travel, strategic route planning, and eventually the infrastructure that makes true sector-wide-scale action possible.
 
 This scope has two layers:
 
 - the **star layer** (S1), where the player manages a solar system — its orbits, asteroid belts, and routes between them
-- the **galaxy layer** (S2), where the player manages the full galactic network — star systems, interstellar routes, and star gates
+- the **sector layer** (S2), where the player manages the full sector-wide network — star systems, interstellar routes, and star gates
 
 ## Core fantasy
 

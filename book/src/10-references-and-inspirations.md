@@ -9,7 +9,7 @@ This project sits at the intersection of factory-game UX, transhumanist identity
 - **Factorio Wiki**
   Useful for belts and logistics-network framing.
 - **Dyson Sphere Program**
-  Useful for galaxy-scale industrial ambition and star-scale growth fantasy.
+  Useful for sector-scale industrial ambition and star-scale growth fantasy.
 - **Satisfactory**
   Useful for embodied factory construction and exploratory industrial play.
 - **Mindustry**

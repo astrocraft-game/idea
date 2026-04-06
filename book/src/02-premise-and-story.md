@@ -4,7 +4,7 @@
 
 This design synthesizes narrative science fiction and automation-game structure into one coherent arc: the player is an **ascended human mind** instantiated in a **Mind Disk**, forced to rebuild physical industry to resist a cosmic destabilization called **Dark Flux**.
 
-The design principle is chronological causality. Mechanics arrive when the story makes them inevitable. Saving exists because the mind can be synchronized into a physical backup disk. Remote control arrives when electronics and field computation exist. Interplanetary scale arrives when launch, orbit, and elevators become the only rational way to reach scarce materials. Portals and time dilation arrive only after the player discovers Flux crystals and precursor chronotech. Cloning is deliberately late and rare because it introduces governance hazards and risks of rogue copies. The final twist is that even galaxy-scale infrastructure proves incomplete: the player eventually learns that Dark Flux must also be repaired from below, inside matter itself, through an elemental stabilization program.
+The design principle is chronological causality. Mechanics arrive when the story makes them inevitable. Saving exists because the mind can be synchronized into a physical backup disk. Remote control arrives when electronics and field computation exist. Interplanetary scale arrives when launch, orbit, and elevators become the only rational way to reach scarce materials. Portals and time dilation arrive only after the player discovers Flux crystals and precursor chronotech. Cloning is deliberately late and rare because it introduces governance hazards and risks of rogue copies. The final twist is that even sector-scale infrastructure proves incomplete: the player eventually learns that Dark Flux must also be repaired from below, inside matter itself, through an elemental stabilization program.
 
 Numeric balance is intentionally unspecified. This document defines relationships, unlock gates, pacing logic, and risk tradeoffs rather than pretending that exact tuning is already known.
 
@@ -74,7 +74,7 @@ From there the campaign broadens:
 - asteroids become extractive frontier
 - star gates reshape strategic distance
 - cloning and fragments threaten governance itself
-- Dyson swarms and Flux stabilizers turn industry into a galactic defense project
+- Dyson swarms and Flux stabilizers turn industry into a sector-wide defense project
 - cellular descent reveals biological systems as a new industrial terrain
 - raw Flux capture and atomic shrinking turn the player toward the smallest scale of all
 - quantum repair reveals that cosmic repair requires atomic construction as well as megastructures

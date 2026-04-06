@@ -64,7 +64,7 @@ The next documents worth writing are:
 1. A detailed tech tree with narrative justification per node.
 2. A planet-scope design chapter with region and planet layer UX examples.
 3. An orbit-scope design chapter with orbit and station module examples.
-4. A space-scope design chapter with solar system routes, asteroid hubs, star gates, and galaxy planning.
+4. A space-scope design chapter with solar system routes, asteroid hubs, star gates, and sector planning.
 5. An element-scope design chapter covering cellular biology, gene editing, quantum construction, field tuning, and macro-to-micro coupling.
 6. A save, sync, and identity document explaining rollback, backup, and clone rules.
 7. A data model for items, machines, regions, stations, routes, minds, cellular structures, and quantum stabilizer networks.

@@ -11,7 +11,7 @@
   - [Station Layer](./03b2-station-layer.md)
 - [Space Scope](./03c-space-scope.md)
   - [Star Layer](./03c1-star-layer.md)
-  - [Galaxy Layer](./03c2-galaxy-layer.md)
+  - [Sector Layer](./03c2-sector-layer.md)
 - [Element Scope](./03d-element-scope.md)
   - [Cell Layer](./03d1-molecule-layer.md)
   - [Quantum Layer](./03d2-quantum-layer.md)

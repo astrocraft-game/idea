@@ -11,7 +11,7 @@ Narrative triggers should unlock mechanics as consequences rather than as arbitr
 - **Space elevators** unlock when rockets are insufficient for sustained industrial throughput.
 - **Shrinkers** unlock when cellular shrinking research matures in stations, making biological descent physically possible.
 - **Star gates** unlock only after flux stabilization and precursor technology make distance compression believable and dangerous.
-- **Atomic shrinkers** unlock only after the player proves they can capture raw Flux and research atomic-level shrinking at galactic scale.
+- **Atomic shrinkers** unlock only after the player proves they can capture raw Flux and research atomic-level shrinking at sector-wide scale.
 
 ## Player choices should have systemic meaning
 
@@ -35,7 +35,7 @@ The player's agency should widen in a controlled way:
 - then over multiple regions and a planet
 - then over stations and orbits
 - then over cellular environments
-- then over star systems and galaxy-wide routes
+- then over star systems and sector-wide routes
 - then over the smallest structures that keep matter coherent at all
 
 This widening must always feel earned through infrastructure rather than granted by abstract authority.

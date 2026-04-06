@@ -18,7 +18,7 @@ The campaign is structured around eight epochs, each unlocking a new level.
 | 4 | Science | O2 Station | Build inside station, space miners, cellular shrinking research |
 | 5 | Descent | E1 Cell | Biological level: viruses, bacteria, gene editing. Shrinkers in O2 and P1 |
 | 6 | Exploration | S1 Star | Asteroid miners, send stations to planets, solar system management |
-| 7 | Frontier | S2 Galaxy | Star gates, interstellar journeys, flux material, atomic shrinking discovery |
+| 7 | Frontier | S2 Sector | Star gates, interstellar journeys, flux material, atomic shrinking discovery |
 | 8 | Entanglement | E2 Quantum | Atomic shrinkers inside E1, stabilize flux at its source |
 
 ### Notable design choice: Element is split
@@ -85,14 +85,14 @@ This split means cellular descent is a mid-campaign surprise that deepens into t
 | Station dispatch | Send industry outward | Surplus station construction | Which planets to send stations to | Expensive one-way commitments |
 | Flux crystals | The universe has seams | Deep-belt prospecting and containment tech | Where to harvest flux | Containment events; instability |
 
-### Epoch 7: Frontier — S2 Galaxy
+### Epoch 7: Frontier — S2 Sector
 
 | Phase | Story beat | Unlock condition | Decisions | Risks |
 |---|---|---|---|---|
 | Interstellar reach | Beyond the home star | First interstellar station journey | Which star to reach first | Years-long commitment; isolation |
 | Star gates | Distance collapses | Flux stabilization and precursor gate technology | Gate topology; which routes deserve compression | Instability; maintenance burden |
 | Flux material | The enemy carried home | Raw flux capture and containment | How much to risk transporting | Containment failure; strategic overreach |
-| Atomic shrinking discovery | Deeper than cells | Flux material research at galaxy scale | When to commit to E2 research | Slow return; distracts from galactic defense |
+| Atomic shrinking discovery | Deeper than cells | Flux material research at sector scale | When to commit to E2 research | Slow return; distracts from sector-wide defense |
 | Fragments and cloning | Governance of selves | Mind Replication Chamber and strict prereqs | Whether to fork at all; permissions | Rogue clone emergence |
 
 ### Epoch 8: Entanglement — E2 Quantum
@@ -129,7 +129,7 @@ The middle of the game should be dominated by:
 
 The late game should shift from optimization toward strategic doctrine:
 
-- where to expand across the star system and galaxy
+- where to expand across the star system and sector
 - what to defend against the flux front
 - what to risk with interstellar commitments
 - how much autonomy to grant fragments or clones
@@ -159,7 +159,7 @@ flowchart LR
   I --> J[Space miners + cellular research]
   J --> K[Shrinkers: cellular descent E1]
   K --> L[Solar system: asteroid mining + station dispatch]
-  L --> M[Galaxy: interstellar routes + star gates]
+  L --> M[Sector: interstellar routes + star gates]
   M --> N[Flux material + atomic shrinking discovery]
   N --> O[Fragments and rare cloning]
   O --> P[Atomic shrinkers: quantum descent E2]

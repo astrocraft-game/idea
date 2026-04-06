@@ -96,7 +96,7 @@ Raw Flux should become the key transition material between macro stabilization a
 
 ## Star gates and route-making
 
-When star gates appear (epoch 7, galaxy layer), they should not trivialize logistics. They should reconfigure it.
+When star gates appear (epoch 7, sector layer), they should not trivialize logistics. They should reconfigure it.
 
 Important decisions:
 
@@ -105,7 +105,7 @@ Important decisions:
 - how to defend gate-linked systems
 - what degree of instability is tolerable
 
-The player should still be making industrial choices, just now at galactic-graph scale.
+The player should still be making industrial choices, just now at sector-wide-graph scale.
 
 Star gates fundamentally change planet access: before gates, planets require a station in orbit. After gates, any planet can be reached directly. This transforms the strategic calculus of expansion.
 
@@ -124,7 +124,7 @@ From within cell instances, the player builds atomic shrinkers and descends to q
 The endgame chain:
 
 1. harvest and contain raw Flux
-2. research atomic shrinking (galaxy layer)
+2. research atomic shrinking (sector layer)
 3. build atomic shrinkers within E1 cell instances
 4. descend to E2 quantum
 5. construct local stabilizers and field harmonics that repair reality from within
@@ -139,6 +139,6 @@ By this point, factories have become civilizational weapons:
 - stabilizer networks become the defense line against regional collapse
 - quantum stabilizer lattices turn temporary defense into lasting repair
 - star gate topology determines who survives
-- the player manages nested repair networks from galaxy scale down to atomic scale
+- the player manages nested repair networks from sector scale down to atomic scale
 
 The endgame should feel like the culmination of every earlier lesson about throughput, specialization, power, and risk.

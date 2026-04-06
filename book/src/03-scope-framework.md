@@ -10,7 +10,7 @@ The design is organized around **four major scopes**, and each scope contains **
 |---|---|---|---|
 | Planet | P1 Region — local factory floor | P2 Planet — multiple regions on one world | Turn local industry into a planetary network |
 | Orbit | O1 Orbit — orbital view with station and optional planet | O2 Station — station internals | Turn orbit into a productive industrial body |
-| Space | S1 Star — solar system with asteroids and routes | S2 Galaxy — full galaxy view and star gates | Turn distance into infrastructure |
+| Space | S1 Star — solar system with asteroids and routes | S2 Sector — full sector view and star gates | Turn distance into infrastructure |
 | Element | E1 Cell — cellular-level construction and biology | E2 Quantum — atomic-level stabilization and flux repair | Turn matter itself into a repairable industrial system |
 
 ## Why this structure is better than a flat list of scales
@@ -24,7 +24,7 @@ For example:
 - the orbit layer is about orbital structure, the station, and exchange with the planet below
 - the station layer is about turning the station into a functioning factory
 - the star layer is about deciding where movement and expansion should happen within a solar system
-- the galaxy layer is about exploiting distant opportunities, star gates, and creating the next foothold
+- the sector layer is about exploiting distant opportunities, star gates, and creating the next foothold
 - the cell layer is about direct biological and cellular-scale construction and repair
 - the quantum layer is about propagating atomic stabilization through unstable matter
 
@@ -110,16 +110,16 @@ Primary concerns:
 
 A planet can only be explored if there is a station in orbit nearby (before star gates).
 
-### Layer S2: Galaxy
+### Layer S2: Sector
 
-The galaxy layer is the full galactic view. Solar systems are clickable objects.
+The sector layer is the full sector-wide view. Solar systems are clickable objects.
 
 Primary concerns:
 
 - interstellar route planning
 - star gate construction and management
 - sending stations on long journeys to other star systems
-- strategic network topology across the galaxy
+- strategic network topology across the sector
 - flux material research and atomic-level shrinking discovery
 
 Star gates (unlocked at this epoch) allow direct travel to any planet or orbit without needing a nearby station — this changes the entire access model for the game.
@@ -160,7 +160,7 @@ This is where Dark Flux is finally confronted directly.
 The eight layers form a nested drill-down tree. The player navigates **down** by clicking an entity and choosing "Enter" in the click panel, and **up** via a single back button. There are no flat scope/layer selection buttons — movement is always entity-driven or via back.
 
 ```
-S2 Galaxy — solar systems as clickable objects
+S2 Sector — solar systems as clickable objects
  └─ S1 Star — orbits around a star, asteroid belts
       └─ O1 Orbit — station + optional planet below
            ├─ O2 Station — station internals
@@ -176,7 +176,7 @@ S2 Galaxy — solar systems as clickable objects
 
 | Parent | Child | Count |
 |---|---|---|
-| S2 Galaxy | S1 Star | 1..N |
+| S2 Sector | S1 Star | 1..N |
 | S1 Star | O1 Orbit | 1..N |
 | O1 Orbit | O2 Station | exactly 1 (always) |
 | O1 Orbit | P2 Planet | 0 or 1 |
@@ -201,7 +201,7 @@ After star gates (epoch 7+), star gates from S2 allow direct travel to any plane
 
 | Name | Scope + Layer | Code | Description |
 |---|---|---|---|
-| Galaxy | Space Secondary | S2 | Solar systems as clickable objects, star gates |
+| Sector | Space Secondary | S2 | Solar systems as clickable objects, star gates |
 | Star | Space Primary | S1 | Orbits around a star, asteroid belts, routes |
 | Orbit | Orbit Primary | O1 | Orbital view with station and optional planet |
 | Station | Orbit Secondary | O2 | Interior of the space station |

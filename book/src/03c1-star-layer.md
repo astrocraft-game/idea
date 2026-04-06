@@ -80,6 +80,6 @@ This is the right layer for:
 
 The player should never feel fully safe here, only increasingly capable.
 
-## Relationship to galaxy layer
+## Relationship to sector layer
 
-The star layer is one node in the galaxy. Everything the player builds here — stations, routes, mining operations — becomes an asset (or liability) visible from S2. A well-developed star system is a strategic anchor. A neglected one is a vulnerability.
+The star layer is one node in the sector. Everything the player builds here — stations, routes, mining operations — becomes an asset (or liability) visible from S2. A well-developed star system is a strategic anchor. A neglected one is a vulnerability.

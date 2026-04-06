@@ -101,19 +101,19 @@ Important tools:
 - per-route risk and capacity visibility
 - flux front proximity overlay
 
-### Galaxy layer (S2) UX
+### Sector layer (S2) UX
 
 Core verbs:
 
 - plan interstellar routes
 - place and manage star gates
 - send stations on long-range journeys
-- monitor galactic flux front advance
+- monitor sector-wide flux front advance
 - manage the strategic network
 
 Important tools:
 
-- galactic map with star systems and gate network
+- sector-wide map with star systems and gate network
 - gate planner and construction queue
 - per-system development summary
 - flux front overlay

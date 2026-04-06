@@ -1,6 +1,6 @@
-# Galaxy Layer
+# Sector Layer
 
-The galaxy layer (S2) is the top level of the hierarchy — the full galactic view. Star systems are clickable objects, and interstellar routes form the strategic skeleton of the entire campaign.
+The sector layer (S2) is the top level of the hierarchy — the full sector-wide view. Star systems are clickable objects, and interstellar routes form the strategic skeleton of the entire campaign.
 
 ## Primary purpose
 
@@ -9,9 +9,9 @@ This layer handles the largest-scale decisions in the game:
 - interstellar route planning
 - star gate construction and management
 - sending stations on long journeys to other star systems
-- strategic network topology across the galaxy
+- strategic network topology across the sector
 - flux material research and the discovery of atomic-level shrinking
-- managing the galactic defense against Dark Flux advance
+- managing the sector-wide defense against Dark Flux advance
 
 ## Star gates
 
@@ -29,7 +29,7 @@ Star gates should not erase logistics. They should reconfigure it. Gates introdu
 - new failure modes if instability or sabotage affects the network
 - infrastructure worth armoring and maintaining
 - route compression at high capital cost
-- strategic chokepoints that shape galactic politics
+- strategic chokepoints that shape sector-wide politics
 
 ## Desired feel
 
@@ -50,7 +50,7 @@ The player should feel that every star system is a real place with real industry
 - when to commit macro resources to flux stabilization versus expansion
 - which stars and systems to prioritize as the flux front advances
 
-## Galaxy layer loops
+## Sector layer loops
 
 ### Expansion loop
 
@@ -68,7 +68,7 @@ The player should feel that every star system is a real place with real industry
 
 ### Defense loop
 
-1. monitor the advance of Dark Flux across the galaxy
+1. monitor the advance of Dark Flux across the sector
 2. identify which systems are at risk
 3. allocate stabilizer resources and defensive stations
 4. decide what can be saved and what must be abandoned
@@ -77,15 +77,15 @@ The player should feel that every star system is a real place with real industry
 
 At this epoch, the player begins working with flux material seriously. This leads to the discovery that atomic-level shrinking is possible — laying the groundwork for E2 (quantum) later.
 
-The galaxy layer is where the endgame strategic picture becomes clear: the player must balance galactic-scale expansion and defense with the eventual need to turn inward, into matter itself.
+The sector layer is where the endgame strategic picture becomes clear: the player must balance sector-wide-scale expansion and defense with the eventual need to turn inward, into matter itself.
 
 ## Strategic network archetypes
 
-Different players might shape very different galactic graphs:
+Different players might shape very different sector-wide graphs:
 
 - hub-and-spoke empire centered on one powerful star
 - resilient mesh with redundant gate connections
 - narrow spearhead toward rare resources
 - heavily fortified stabilizer corridor along the flux front
 
-The galaxy layer should support these different doctrines.
+The sector layer should support these different doctrines.
